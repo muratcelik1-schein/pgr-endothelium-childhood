@@ -1,0 +1,44 @@
+axis	key	value	note
+meta	snapshot	1762972271	CELLxGENE corpus snapshot
+meta	seed	2026	
+meta	tissue	UBERON:0000955	brain
+meta	panel_missing	none	
+meta	brain_cell_types_scored	107	
+meta	metric	specificity = gene's detected fraction in a cell type divided by that cell type's mean across all queried genes	raw fractions correlate between unrelated genes
+meta	null_usable	114 of 250 random genes had an endothelial cell type scored; 136 did not	unscored genes are counted, never imputed
+corpus_profile	question	Across the whole human corpus, is the target's cell type profile endothelial, or is that a property of the brain datasets the manuscript already used?	
+corpus_profile	positive_control	2 of 2 endothelial · CLDN5 top=endothelial cell · PECAM1 top=endothelial cell	
+corpus_profile	PGR::n_cell_types	84	
+corpus_profile	PGR::top3	endothelial cell=1.36; epithelial cell=1.22; fibroblast=1.11	specificity, gene over the cell type's own baseline
+corpus_profile	PGR::best_endothelial_rank	1	of 84
+corpus_profile	NR3C1::n_cell_types	107	
+corpus_profile	NR3C1::top3	glutamatergic neuron=11.70; secretory cell=10.78; neuron=9.89	specificity, gene over the cell type's own baseline
+corpus_profile	NR3C1::best_endothelial_rank	12	of 107
+corpus_profile	NR3C2::n_cell_types	107	
+corpus_profile	NR3C2::top3	vip GABAergic cortical interneuron=19.89; astrocyte=17.28; secretory cell=16.64	specificity, gene over the cell type's own baseline
+corpus_profile	NR3C2::best_endothelial_rank	23	of 107
+corpus_profile	ESR1::n_cell_types	105	
+corpus_profile	ESR1::top3	perivascular macrophage=3.37; central nervous system macrophage=1.48; tissue-resident macrophage=1.48	specificity, gene over the cell type's own baseline
+corpus_profile	ESR1::best_endothelial_rank	76	of 105
+corpus_profile	AR::n_cell_types	102	
+corpus_profile	AR::top3	malignant cell=1.60; immature astrocyte=1.52; abnormal cell=1.52	specificity, gene over the cell type's own baseline
+corpus_profile	AR::best_endothelial_rank	65	of 102
+corpus_profile	GPER1::n_cell_types	94	
+corpus_profile	GPER1::top3	supporting cell=2.86; pericyte=2.86; mural cell=2.68	specificity, gene over the cell type's own baseline
+corpus_profile	GPER1::best_endothelial_rank	10	of 94
+corpus_profile	limit	The corpus pools datasets of different assays, ages and diseases, and its cell type labels are the contributing authors'. It answers where a transcript sits, never when.	
+programme	question	Do the genes that met the same three developmental criteria sit in the same cell type as the target? The manuscript declines to claim a programme; this tests it.	
+programme	positive_control	2 of 2 beat the null · CLDN5 rank=0.010 p=0.017 · PECAM1 rank=0.010 p=0.017	
+programme	null_size	114	random corpus genes, seed 2026; resolution 1/115
+programme	null_rank_median	0.533	fraction of the ranking; 0.5 is no endothelial bias
+programme	null_rank_p05	0.056	
+programme	PGR::endothelial_rank_fraction	0.012	p=0.017 against the null
+programme	PGR-AS1	rank=0.027 p=0.035 top=fibroblast	endothelial-biased
+programme	MIR31HG	rank=0.315 p=0.278 top=near-projecting glutamatergic cortical neuron	not biased
+programme	ZNF727	rank=0.022 p=0.035 top=mesenchymal cell	endothelial-biased
+programme	SHISA3	rank=0.068 p=0.061 top=radial glial cell	not biased
+programme	TMEM235	rank=0.465 p=0.409 top=oligodendrocyte	not biased
+programme	FMO2	rank=0.167 p=0.122 top=fibroblast	not biased
+programme	co_emerging_endothelial	2 of 6	
+programme	reading	co-emerging genes that are also endothelial-biased would support a shared compartment; co-emerging genes scattered across compartments show the developmental schedule is not a programme of one cell type	
+programme	limit	A shared cell type would show these genes occupy the same compartment, not that they are co-regulated, and the corpus carries no developmental axis. The statistic is the position of the best endothelial cell type in each gene's own ranking, so it is blind to how strongly the gene is expressed.	

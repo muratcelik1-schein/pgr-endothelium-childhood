@@ -1,0 +1,33 @@
+block	key	value	note
+meta	n_cluster	3168	clusters with at least 50 nuclei
+meta	n_division	14	
+vascular_by_division	Hypothalamus	clusters=2; median=2.0523; max=3.7945	
+vascular_by_division	Cerebral cortex	clusters=15; median=1.2073; max=2.0017	
+vascular_by_division	Cerebellum	clusters=1; median=0.7016; max=0.7016	
+vascular_by_division	Pons	clusters=4; median=0.6999; max=0.9236	
+vascular_by_division	Hippocampus	clusters=8; median=0.6176; max=1.4473	
+vascular_by_division	Thalamus	clusters=20; median=0.6004; max=0.9228	
+vascular_by_division	Basal nuclei	clusters=1; median=0.3859; max=0.3859	
+vascular_by_division	Midbrain	clusters=2; median=0.3292; max=0.3779	
+vascular_by_division	Spinal cord	clusters=1; median=0.2599; max=0.2599	
+vascular_by_division	Myelencephalon	clusters=11; median=0.2443; max=0.4172	
+vascular_by_division	Basal forebrain	clusters=20; median=0.0245; max=0.6119	
+vascular_by_division	SUMMARY	top=Hypothalamus (median 2.0523, 2 clusters); cortex median=1.2073 (15 clusters)	divisions with few clusters carry no weight; the count column is the caveat
+neuronal_by_division	Hypothalamus	clusters=288; median=0.0139; max=6.6885	
+neuronal_by_division	Myelencephalon	clusters=130; median=0.0056; max=0.5241	
+neuronal_by_division	Pons	clusters=204; median=0.0037; max=1.0022	
+neuronal_by_division	Midbrain	clusters=344; median=0.0028; max=0.5383	
+neuronal_by_division	Extended amygdala	clusters=43; median=0.0019; max=1.3397	
+neuronal_by_division	Cerebellum	clusters=48; median=0.0019; max=0.0719	
+neuronal_by_division	Thalamus	clusters=263; median=0.0014; max=1.9840	
+neuronal_by_division	Claustrum	clusters=10; median=0.0011; max=0.0044	
+neuronal_by_division	Cerebral cortex	clusters=867; median=0.0009; max=0.3587	
+neuronal_by_division	Basal forebrain	clusters=78; median=0.0009; max=0.1434	
+neuronal_by_division	Hippocampus	clusters=243; median=0.0008; max=0.4566	
+neuronal_by_division	Amygdaloid complex	clusters=272; median=0.0007; max=0.1533	
+neuronal_by_division	Basal nuclei	clusters=91; median=0.0006; max=0.0567	
+neuronal_by_division	Spinal cord	clusters=10; median=0.0000; max=0.0850	
+neuronal_by_division	SUMMARY	top=Hypothalamus (median 0.0139, 288 clusters); cortex median=0.0009 (867 clusters)	divisions with few clusters carry no weight; the count column is the caveat
+cerebellum	clusters	total=53; neuronal=48; other=4; vascular=1	
+cerebellum	PGR	median=0.0024; max=0.7016; above_0.5=1	
+cerebellum	vascular_clusters	1	a single vascular cluster; no regional comparison follows from it

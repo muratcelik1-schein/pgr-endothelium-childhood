@@ -1,0 +1,247 @@
+block	key	value	note
+series	n_donor	65	
+series	n_study	4	
+series	age_range	0.77-44.77	
+series	n_gene_tested	18794	
+series	n_donor_0.75-2y	16	
+series	n_donor_2-6y	16	
+series	n_donor_6-12y	7	
+series	n_donor_12-20y	17	
+series	n_donor_>20y	9	
+endo_dev	PGR	"{""rho"": 0.68, ""rank"": 7, ""fold"": 16.97, ""zero_pct"": 88, ""monotonic"": true, ""bands"": [0.0372, 0.2407, 0.4075, 0.6265, 0.6328]}"	
+endo_dev	PGR-AS1	"{""rho"": 0.615, ""rank"": 18, ""fold"": 9.37, ""zero_pct"": 69, ""monotonic"": true, ""bands"": [0.0515, 0.147, 0.1806, 0.4423, 0.4833]}"	
+endo_dev	ZNF385B	"{""rho"": 0.745, ""rank"": 2, ""fold"": 13.41, ""zero_pct"": 12, ""monotonic"": false, ""bands"": [0.3605, 1.2859, 4.2377, 5.3149, 4.8375]}"	
+endo_dev	NR3C1	"{""rho"": 0.092, ""rank"": 4785, ""fold"": 0.97, ""zero_pct"": 0, ""monotonic"": false, ""bands"": [5.5444, 5.4686, 6.4354, 6.2524, 5.3592]}"	
+endo_dev	NR3C2	"{""rho"": 0.496, ""rank"": 57, ""fold"": 1.67, ""zero_pct"": 0, ""monotonic"": false, ""bands"": [3.7961, 3.3618, 6.0905, 5.3451, 6.3462]}"	
+endo_dev	ESR1	"{""rho"": -0.022, ""rank"": 9712, ""fold"": 1.69, ""zero_pct"": 38, ""monotonic"": false, ""bands"": [0.0728, 0.0595, 0.0937, 0.0483, 0.1229]}"	
+endo_dev	AR	"{""rho"": -0.352, ""rank"": 18460, ""fold"": 0.64, ""zero_pct"": 44, ""monotonic"": false, ""bands"": [0.0719, 0.0656, 0.0153, 0.0359, 0.0458]}"	
+endo_dev	GPER1	"{""rho"": 0.112, ""rank"": 4078, ""fold"": 1.46, ""zero_pct"": 44, ""monotonic"": false, ""bands"": [0.2978, 0.4965, 0.2736, 0.4426, 0.4362]}"	
+endo_dev	ABCB1	"{""rho"": -0.055, ""rank"": 11310, ""fold"": 0.85, ""zero_pct"": 0, ""monotonic"": false, ""bands"": [30.0296, 29.881, 30.5494, 28.4469, 25.4084]}"	
+endo_dev	AKR1C1	"{""rho"": 0.323, ""rank"": 492, ""fold"": 4.18, ""zero_pct"": 56, ""monotonic"": true, ""bands"": [0.0507, 0.0815, 0.0891, 0.1631, 0.2124]}"	
+endo_dev	AKR1C2	"{""rho"": 0.136, ""rank"": 3319, ""fold"": 1.52, ""zero_pct"": 62, ""monotonic"": false, ""bands"": [0.0994, 0.0206, 0.05, 0.0732, 0.1513]}"	
+endo_dev	AKR1C3	"{""rho"": 0.162, ""rank"": 2630, ""fold"": 3.58, ""zero_pct"": 44, ""monotonic"": true, ""bands"": [0.0525, 0.0822, 0.0906, 0.1485, 0.1883]}"	
+endo_dev	SRD5A1	"{""rho"": -0.188, ""rank"": 16311, ""fold"": 0.61, ""zero_pct"": 19, ""monotonic"": false, ""bands"": [0.19, 0.1543, 0.1164, 0.1029, 0.1149]}"	
+full_series	n_donor	112	
+full_series	n_donor_0-0.5y	35	
+full_series	n_donor_0.5-0.75y	11	
+full_series	n_donor_0.75-2y	17	
+full_series	n_donor_2-6y	16	
+full_series	n_donor_6-12y	7	
+full_series	n_donor_12-20y	17	
+full_series	n_donor_>20y	9	
+full_series	PGR	"{""bands"": [0.0034, 0.0099, 0.035, 0.2407, 0.4075, 0.6265, 0.6328], ""early_fraction_by_2y"": 0.05, ""peak_band"": "">20y""}"	
+full_series	ABCB1	"{""bands"": [7.6741, 15.6174, 29.95, 29.881, 30.5494, 28.4469, 25.4084], ""early_fraction_by_2y"": 0.974, ""peak_band"": ""6-12y""}"	
+gate	fold>=5_zero>=50	n=54; PGR_rho_rank=1; top5=PGR,PGR-AS1,TARP,MIR31HG,ZNF727	
+gate	fold>=5_zero>=75	n=43; PGR_rho_rank=1; top5=PGR,MIR31HG,ZNF727,SHISA3,ENSG00000291099	
+gate	fold>=5_zero>=80	n=41; PGR_rho_rank=1; top5=PGR,MIR31HG,ZNF727,SHISA3,ENSG00000291099	
+gate	fold>=10_zero>=75	n=30; PGR_rho_rank=1; top5=PGR,MIR31HG,ZNF727,SHISA3,TMEM235	
+gate	fold>=10_zero>=80	n=29; PGR_rho_rank=1; top5=PGR,MIR31HG,ZNF727,SHISA3,TMEM235	
+gate	fold>=20_zero>=80	n=21; PGR_rho_rank=NA; top5=MIR31HG,ZNF727,SHISA3,TMEM235,FMO2	
+robust	LOSO_rank	"{""herring"": 11, ""velmeshev"": 11, ""wang"": 8, ""zhu"": 11}"	
+robust	within_study	"{""herring"": [17, 0.599, 0.011], ""velmeshev"": [31, 0.625, 0.0002], ""wang"": [9, 0.817, 0.0072], ""zhu"": [8, 0.57, 0.1404]}"	
+robust	rho_depth_PGR	-0.089	
+robust	rho_depth_age	-0.02	
+robust	rho_after_depth	0.624	
+robust	sex_counts	"{""female"": 28, ""male"": 37}"	
+robust	rho_after_sex	0.678	
+robust	rho_female	0.685	
+robust	rho_male	0.697	
+robust	PGR_ZNF385B_partial_age	0.34	
+panel	VLMC_n_donor	62	
+panel	VLMC_AKR1C1	"{""fold"": 2.18, ""monotonic"": false, ""bands"": [0.2146, 0.1888, 0.1357, 0.4118, 0.4671]}"	
+panel	VLMC_AKR1C2	"{""fold"": 4.73, ""monotonic"": false, ""bands"": [0.0541, 0.0703, 0.3553, 0.3886, 0.2566]}"	
+panel	VLMC_AKR1C3	"{""fold"": 3.27, ""monotonic"": false, ""bands"": [0.0419, 0.0558, 0.0536, 0.1349, 0.1373]}"	
+panel	VLMC_CYP1B1	"{""fold"": 1.19, ""monotonic"": false, ""bands"": [1.6024, 1.4805, 2.7175, 1.7204, 1.9148]}"	
+panel	VLMC_PGR	"{""fold"": 0.91, ""monotonic"": false, ""bands"": [0.2204, 0.2108, 0.4638, 0.3589, 0.2016]}"	
+panel	Glut_n_donor	79	
+panel	Glut_ZNF385B	"{""fold"": 1.16, ""monotonic"": false, ""bands"": [5.0371, 5.8443, 6.325, 6.0489, 5.8371]}"	
+panel	Glut_PGR	"{""fold"": 0.63, ""monotonic"": false, ""bands"": [0.0042, 0.0044, 0.0023, 0.0038, 0.0026]}"	
+panel	GABA_n_donor	79	
+panel	GABA_ZNF385B	"{""fold"": 1.24, ""monotonic"": false, ""bands"": [2.8909, 3.6155, 3.7338, 3.7608, 3.578]}"	
+panel	GABA_PGR	"{""fold"": 1.18, ""monotonic"": false, ""bands"": [0.004, 0.0101, 0.0062, 0.0049, 0.0048]}"	
+singlecell	n_cell	5436	
+singlecell	pct_pos_0.75-2y	0.47 (n_cell=1066, median_counts=2316)	
+singlecell	pct_pos_2-6y	3.82 (n_cell=1728, median_counts=2006)	
+singlecell	pct_pos_6-12y	8.42 (n_cell=404, median_counts=1964)	
+singlecell	pct_pos_12-20y	16.61 (n_cell=1945, median_counts=2269)	
+singlecell	pct_pos_>20y	10.24 (n_cell=293, median_counts=1543)	
+singlecell	pct_pos_low_ambient	[0.66, 4.02, 10.3, 15.76, 8.78]	
+singlecell	pct_pos_high_ambient	[0.22, 3.57, 7.11, 17.23, 11.72]	
+region	n_donor	65	
+region	rho_raw	0.689	
+region	rho_PFC	+0.709 (n=28)	
+region	rho_STG_cortex	+0.482 (n=7)	
+region	rho_V1	+0.821 (n=7)	
+region	rho_cingulate_cortex	+0.492 (n=12)	
+region	rho_cortex	+0.570 (n=8)	
+region	rho_after_region	0.696	
+gtex	HSD3B2	adrenal=1702.29; brain_median=0.042; max=Adrenal Gland	
+gtex	HSD3B1	adrenal=0.49; brain_median=0.000; max=Small Intestine - Terminal Ileum	
+gtex	STAR	adrenal=4912.18; brain_median=1.376; max=Adrenal Gland	
+gtex	CYP19A1	adrenal=0.35; brain_median=0.017; max=Cells - Cultured fibroblasts	
+gtex	CYP11A1	adrenal=1056.44; brain_median=1.978; max=Adrenal Gland	
+gtex	HSD3B7	adrenal=37.79; brain_median=4.706; max=Liver	
+allen	n_cluster_ge50	3168	
+allen	n_neuronal_cluster	2891; above_0.5=51	
+allen	n_vascular_cluster	85	
+allen	cortex_neuronal	n=867; max=0.3587; median=0.0009; above_0.5=0	
+allen	cortex_vascular	n=15; max=2.0017; median=1.2073; above_0.5=12	
+allen	neuronal_above_0.5	n=51; Hypothalamus=38; Thalamus=7; Pons=2; Midbrain=2; Myelencephalon=1; Extended amygdala=1	
+allen	HSD3B1	detected=0; above_0.5=0; max=0.0664	
+allen	HSD3B2	detected=0; above_0.5=0; max=0.0206	
+allen	HSD3B7	detected=1; above_0.5=0; max=0.1021	
+allen	CYP11A1	detected=79; above_0.5=0; max=0.4137	
+allen	STAR	detected=159; above_0.5=0; max=0.2244	
+allen	CYP19A1	detected=147; above_0.5=27; max=1.8064	
+psychad	n_donor	Endo=934; PC=833; SMC=134; VLMC=675	
+psychad	PGR	Endo=0.8811; PC=0.3487; SMC=0.2695; VLMC=0.5709; peak=Endo	
+psychad	PAQR5	Endo=1.5292; PC=0.0065; SMC=0.0570; VLMC=0.3279; peak=Endo	
+psychad	GPER1	Endo=0.0694; PC=1.1746; SMC=0.1775; VLMC=0.0816; peak=PC	
+psychad	ESR1	Endo=0.0998; PC=0.2848; SMC=0.3821; VLMC=0.1468; peak=SMC	
+psychad	AR	Endo=0.0280; PC=0.1773; SMC=0.3262; VLMC=0.1661; peak=SMC	
+psychad	NR3C1	Endo=4.9162; PC=3.9223; SMC=2.1770; VLMC=3.6551; peak=Endo	
+psychad	NR3C2	Endo=8.5372; PC=3.8805; SMC=2.7954; VLMC=2.8945; peak=Endo	
+psychad	AKR1C1	Endo=0.2015; PC=0.1737; SMC=0.0978; VLMC=0.5989; peak=VLMC	
+psychad	AKR1C2	Endo=0.0872; PC=0.1318; SMC=0.0794; VLMC=1.1499; peak=VLMC	
+psychad	AKR1C3	Endo=0.1825; PC=0.1004; SMC=0.0714; VLMC=0.1975; peak=VLMC	
+psychad	CYP1B1	Endo=0.2122; PC=0.0977; SMC=0.3644; VLMC=4.5536; peak=VLMC	
+psychad	SRD5A1	Endo=0.1245; PC=0.1683; SMC=0.1272; VLMC=0.1185; peak=PC	
+psychad	ABCB1	Endo=32.6031; PC=0.4047; SMC=0.0698; VLMC=0.4869; peak=Endo	
+psychad	PECAM1	Endo=5.3954; PC=0.0347; SMC=0.0604; VLMC=0.0371; peak=Endo	
+psychad	CLDN5	Endo=9.9065; PC=0.0206; SMC=0.0235; VLMC=0.0112; peak=Endo	
+psychad	PDGFRB	Endo=0.0356; PC=14.2195; SMC=5.5733; VLMC=2.1107; peak=PC	
+psychad	RGS5	Endo=0.2906; PC=9.2732; SMC=1.0533; VLMC=0.2271; peak=PC	
+psychad	ACTA2	Endo=0.1409; PC=0.6180; SMC=8.6705; VLMC=0.4232; peak=SMC	
+psychad	MYH11	Endo=0.1720; PC=0.1156; SMC=9.0552; VLMC=0.1021; peak=SMC	
+psychad	DCN	Endo=0.0450; PC=5.8182; SMC=2.1072; VLMC=7.7510; peak=VLMC	
+psychad	COL1A2	Endo=0.0122; PC=2.2767; SMC=2.3802; VLMC=5.6785; peak=VLMC	
+psychad	LUM	Endo=0.0015; PC=0.1211; SMC=0.0516; VLMC=0.2398; peak=VLMC	
+psychad_partial	Endo	mean=+0.303; Aging=+0.426; HBCC=+0.390; MSSM=+0.200; RADC=+0.198; all_positive=True	
+psychad_partial	PC	mean=+0.255; Aging=+0.202; HBCC=+0.352; MSSM=+0.209; RADC=+0.256; all_positive=True	
+psychad_partial	SMC	mean=-0.101; Aging=-0.405; HBCC=-0.131; MSSM=+0.237; RADC=-0.104; all_positive=False	
+barrier_panel	CLDN5	"{""group"": ""tight_junction"", ""bands"": [24.715, 30.139, 18.862, 22.926, 18.913, 14.594, 19.444], ""early_fraction_by_2y"": -1.079, ""peak_band"": ""0.5-0.75y""}"	
+barrier_panel	OCLN	"{""group"": ""tight_junction"", ""bands"": [0.662, 0.931, 1.341, 1.634, 1.476, 1.756, 1.399], ""early_fraction_by_2y"": 0.621, ""peak_band"": ""12-20y""}"	
+barrier_panel	TJP1	"{""group"": ""tight_junction"", ""bands"": [6.768, 8.908, 7.98, 7.81, 7.274, 9.936, 11.667], ""early_fraction_by_2y"": 0.247, ""peak_band"": "">20y""}"	
+barrier_panel	TJP2	"{""group"": ""tight_junction"", ""bands"": [0.561, 0.994, 1.5, 1.485, 1.625, 1.555, 2.113], ""early_fraction_by_2y"": 0.605, ""peak_band"": "">20y""}"	
+barrier_panel	MARVELD2	"{""group"": ""tight_junction"", ""bands"": [0.152, 0.238, 0.196, 0.365, 0.175, 0.275, 0.215], ""early_fraction_by_2y"": 0.205, ""peak_band"": ""2-6y""}"	
+barrier_panel	ABCB1	"{""group"": ""transport"", ""bands"": [7.674, 15.617, 29.95, 29.881, 30.549, 28.447, 25.408], ""early_fraction_by_2y"": 0.974, ""peak_band"": ""6-12y""}"	
+barrier_panel	ABCG2	"{""group"": ""transport"", ""bands"": [2.937, 4.579, 7.858, 8.489, 10.016, 11.563, 9.406], ""early_fraction_by_2y"": 0.57, ""peak_band"": ""12-20y""}"	
+barrier_panel	SLC2A1	"{""group"": ""transport"", ""bands"": [5.009, 7.015, 5.189, 5.958, 5.347, 5.807, 8.971], ""early_fraction_by_2y"": 0.046, ""peak_band"": "">20y""}"	
+barrier_panel	MFSD2A	"{""group"": ""transport"", ""bands"": [5.202, 5.09, 5.364, 4.931, 4.437, 4.513, 4.951], ""early_fraction_by_2y"": 1.0, ""peak_band"": ""0.75-2y""}"	
+barrier_panel	SLCO1A2	"{""group"": ""transport"", ""bands"": [1.134, 1.226, 6.241, 5.9, 7.021, 8.089, 6.848], ""early_fraction_by_2y"": 0.734, ""peak_band"": ""12-20y""}"	
+barrier_panel	PGR	"{""group"": ""receptor"", ""bands"": [0.003, 0.01, 0.035, 0.241, 0.407, 0.626, 0.633], ""early_fraction_by_2y"": 0.05, ""peak_band"": "">20y""}"	
+barrier_panel	SUMMARY	n=10; median_early=0.59; range=-1.08 to 1.00; PGR=0.05	
+donor_sc	n_donor	65; nuclei=5388; positive=457	
+donor_sc	rho_age_proportion	+0.707 (p=4.70e-11, donor level)	
+donor_sc	rho_herring	+0.731 (n=17, p=0.001)	
+donor_sc	rho_velmeshev	+0.637 (n=31, p=0.000)	
+donor_sc	rho_wang	+0.817 (n=9, p=0.007)	
+donor_sc	rho_zhu	+0.679 (n=8, p=0.064)	
+donor_sc	band_0.75-2y	donors=16; donors_with_any_positive=2; nuclei=1057; positive=5; pct=0.47; CI95=[0.15,1.10]	
+donor_sc	band_2-6y	donors=16; donors_with_any_positive=13; nuclei=1719; positive=66; pct=3.84; CI95=[2.98,4.86]	
+donor_sc	band_6-12y	donors=7; donors_with_any_positive=5; nuclei=404; positive=34; pct=8.42; CI95=[5.90,11.56]	
+donor_sc	band_12-20y	donors=17; donors_with_any_positive=16; nuclei=1930; positive=323; pct=16.74; CI95=[15.10,18.48]	
+donor_sc	band_>20y	donors=9; donors_with_any_positive=9; nuclei=278; positive=29; pct=10.43; CI95=[7.10,14.64]	
+permutation	design	age shuffled within study, n=2000, seed=2026	
+permutation	n_gate_genes	observed=54; p=0.0025	
+permutation	max_rho_among_gate	observed=0.680; p=0.0005; null_median=0.349; null_p95=0.466; null_max=0.605	
+psychad_control	n_donor	Endo=433; PC=383; SMC=44; VLMC=249 (disease_ontology_term_id = PATO:0000461)	
+psychad_control	PGR	Endo=0.8531; PC=0.3508; SMC=0.2453; VLMC=0.5131; peak=Endo; same_peak_as_full_set=True	
+psychad_control	PAQR5	Endo=1.5218; PC=0.0097; SMC=0.0581; VLMC=0.2922; peak=Endo; same_peak_as_full_set=True	
+psychad_control	GPER1	Endo=0.0764; PC=1.1463; SMC=0.2471; VLMC=0.0855; peak=PC; same_peak_as_full_set=True	
+psychad_control	ESR1	Endo=0.1005; PC=0.2900; SMC=0.4140; VLMC=0.1371; peak=SMC; same_peak_as_full_set=True	
+psychad_control	AR	Endo=0.0178; PC=0.1941; SMC=0.3105; VLMC=0.1846; peak=SMC; same_peak_as_full_set=True	
+psychad_control	NR3C1	Endo=5.0547; PC=4.0226; SMC=2.4112; VLMC=3.9866; peak=Endo; same_peak_as_full_set=True	
+psychad_control	NR3C2	Endo=8.2887; PC=3.8381; SMC=3.3293; VLMC=2.8845; peak=Endo; same_peak_as_full_set=True	
+psychad_control	AKR1C1	Endo=0.1989; PC=0.1682; SMC=0.0677; VLMC=0.5355; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	AKR1C2	Endo=0.0824; PC=0.1349; SMC=0.0687; VLMC=0.9871; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	AKR1C3	Endo=0.1698; PC=0.0878; SMC=0.0541; VLMC=0.1631; peak=Endo; same_peak_as_full_set=False	
+psychad_control	CYP1B1	Endo=0.1880; PC=0.0952; SMC=0.2745; VLMC=4.5763; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	SRD5A1	Endo=0.1213; PC=0.1528; SMC=0.1216; VLMC=0.1172; peak=PC; same_peak_as_full_set=True	
+psychad_control	ABCB1	Endo=32.3553; PC=0.3602; SMC=0.0696; VLMC=0.4149; peak=Endo; same_peak_as_full_set=True	
+psychad_control	PECAM1	Endo=5.3274; PC=0.0338; SMC=0.0581; VLMC=0.0325; peak=Endo; same_peak_as_full_set=True	
+psychad_control	CLDN5	Endo=10.0798; PC=0.0210; SMC=0.0322; VLMC=0.0107; peak=Endo; same_peak_as_full_set=True	
+psychad_control	PDGFRB	Endo=0.0351; PC=14.7682; SMC=5.8010; VLMC=2.1337; peak=PC; same_peak_as_full_set=True	
+psychad_control	RGS5	Endo=0.3135; PC=9.6221; SMC=1.3307; VLMC=0.2199; peak=PC; same_peak_as_full_set=True	
+psychad_control	ACTA2	Endo=0.1327; PC=0.6106; SMC=9.7237; VLMC=0.3981; peak=SMC; same_peak_as_full_set=True	
+psychad_control	MYH11	Endo=0.1870; PC=0.1365; SMC=8.4706; VLMC=0.1074; peak=SMC; same_peak_as_full_set=True	
+psychad_control	DCN	Endo=0.0448; PC=5.7651; SMC=2.2972; VLMC=7.0373; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	COL1A2	Endo=0.0152; PC=2.2390; SMC=2.3957; VLMC=6.1728; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	LUM	Endo=0.0019; PC=0.1183; SMC=0.0659; VLMC=0.2921; peak=VLMC; same_peak_as_full_set=True	
+psychad_control	SUMMARY	21/22 genes keep the same peak cell type	
+diagnosis	n_donor	932; cohorts=MSSM=366; HBCC=252; Aging=207; RADC=107	
+diagnosis_poscontrol	sex_XIST	rho=+0.831; p=6.61e-239	
+diagnosis_poscontrol	sex_UTY	rho=-0.831; p=9.43e-239	
+diagnosis_poscontrol	sex_PGR	rho=-0.014; p=6.70e-01	
+diagnosis_poscontrol	sex_ACTB	rho=+0.015; p=6.46e-01	
+diagnosis	SCZ_n	cases=82; controls=800; total=882; case_cohorts=HBCC=46; MSSM=36	
+diagnosis	SCZ_PGR	rho=-0.003; CI95=[-0.069,+0.063]; p=0.930	
+diagnosis	SCZ_PGR-AS1	rho=+0.037; CI95=[-0.029,+0.103]; p=0.272	
+diagnosis	SCZ_PAQR5	rho=-0.031; CI95=[-0.097,+0.035]; p=0.353	
+diagnosis	SCZ_ZNF385B	rho=-0.061; CI95=[-0.126,+0.005]; p=0.072	
+diagnosis	SCZ_ACTB	rho=+0.022; CI95=[-0.044,+0.087]; p=0.522; housekeeping	
+diagnosis	SCZ_GAPDH	rho=+0.061; CI95=[-0.005,+0.126]; p=0.070; housekeeping	
+diagnosis	SCZ_RPL13A	rho=+0.002; CI95=[-0.064,+0.068]; p=0.943; housekeeping	
+diagnosis	SCZ_RPLP0	rho=-0.016; CI95=[-0.082,+0.050]; p=0.631; housekeeping	
+diagnosis	SCZ_TBP	rho=+0.007; CI95=[-0.059,+0.073]; p=0.832; housekeeping	
+diagnosis	SCZ_PGK1	rho=+0.046; CI95=[-0.020,+0.112]; p=0.170; housekeeping	
+diagnosis	SCZ_interaction_age	rho=-0.019; p=0.581	
+diagnosis	SCZ_interaction_sex	rho=+0.018; p=0.590	
+diagnosis	SCZ_within_HBCC	rho=+0.037; n=202	
+diagnosis	SCZ_within_MSSM	rho=-0.025; n=366	
+diagnosis_power	SCZ_rho0.05	power=0.32	
+diagnosis_power	SCZ_rho0.1	power=0.84	
+diagnosis_power	SCZ_rho0.15	power=0.99	
+diagnosis_power	SCZ_rho0.2	power=1.00	
+diagnosis	BD_n	cases=54; controls=800; total=854; case_cohorts=HBCC=54	
+diagnosis	BD_PGR	rho=+0.006; CI95=[-0.061,+0.073]; p=0.867	
+diagnosis	BD_PGR-AS1	rho=-0.017; CI95=[-0.084,+0.051]; p=0.628	
+diagnosis	BD_PAQR5	rho=-0.013; CI95=[-0.080,+0.054]; p=0.712	
+diagnosis	BD_ZNF385B	rho=-0.009; CI95=[-0.076,+0.058]; p=0.784	
+diagnosis	BD_ACTB	rho=-0.008; CI95=[-0.075,+0.059]; p=0.823; housekeeping	
+diagnosis	BD_GAPDH	rho=+0.060; CI95=[-0.007,+0.126]; p=0.082; housekeeping	
+diagnosis	BD_RPL13A	rho=-0.021; CI95=[-0.088,+0.047]; p=0.548; housekeeping	
+diagnosis	BD_RPLP0	rho=-0.020; CI95=[-0.087,+0.047]; p=0.556; housekeeping	
+diagnosis	BD_TBP	rho=+0.003; CI95=[-0.064,+0.070]; p=0.938; housekeeping	
+diagnosis	BD_PGK1	rho=+0.041; CI95=[-0.027,+0.107]; p=0.236; housekeeping	
+diagnosis	BD_interaction_age	rho=-0.003; p=0.926	
+diagnosis	BD_interaction_sex	rho=+0.002; p=0.963	
+diagnosis	BD_within_HBCC	rho=-0.017; n=210	
+diagnosis_power	BD_rho0.05	power=0.31	
+diagnosis_power	BD_rho0.1	power=0.83	
+diagnosis_power	BD_rho0.15	power=0.99	
+diagnosis_power	BD_rho0.2	power=1.00	
+steyn	n_celltype	7; nuclei=144438	
+steyn_celltype	Endothelial Cells	PGR=0.6373; pct_positive=12.81; CLDN5=7.8211; n=1233	
+steyn_celltype	OPCs	PGR=0.0415; pct_positive=1.07; CLDN5=0.0139; n=13326	
+steyn_celltype	Astrocytes	PGR=0.0075; pct_positive=0.23; CLDN5=0.0123; n=16802	
+steyn_celltype	Microglia	PGR=0.0038; pct_positive=0.07; CLDN5=0.0142; n=9243	
+steyn_celltype	Excitatory Neurons	PGR=0.0027; pct_positive=0.20; CLDN5=0.0070; n=34434	
+steyn_celltype	Inhibitory Neurons	PGR=0.0023; pct_positive=0.13; CLDN5=0.0067; n=15665	
+steyn_celltype	Oligodendrocytes	PGR=0.0022; pct_positive=0.04; CLDN5=0.0119; n=53735	
+steyn	n_donor	12; age=4-50; nuclei=1233; PGR_positive=158	
+steyn	age_expression	rho=+0.750; p=0.0050; adjusted_rho=+0.748; adjusted_p=0.0051	
+steyn	age_positive_fraction	rho=+0.816; p=0.0012; adjusted_rho=+0.769; adjusted_p=0.0034	
+steyn_control	ACTB	age_rho=+0.490; p=0.106; PGR_over_ACTB_rho=+0.511; p=0.0893	
+steyn_control	GAPDH	age_rho=+0.385; p=0.216; PGR_over_GAPDH_rho=+0.571; p=0.0525	
+steyn_control	RPL13A	age_rho=+0.326; p=0.301; PGR_over_RPL13A_rho=+0.392; p=0.2072	
+steyn_control	RPLP0	age_rho=+0.322; p=0.307; PGR_over_RPLP0_rho=+0.600; p=0.0392	
+steyn_control	TBP	age_rho=-0.249; p=0.436; PGR_over_TBP_rho=+0.666; p=0.0180	
+steyn_control	PGK1	age_rho=-0.200; p=0.534; PGR_over_PGK1_rho=+0.725; p=0.0076	
+steyn	paediatric_4to9	donors=4; 10/315=3.17%; CI95=[1.53,5.76]	
+steyn	adult_20plus	donors=6; 46/286=16.08%; CI95=[12.02,20.86]; fisher_p=3.25e-08	
+steyn	depth_ratio	paediatric=2138; adult=3398; ratio=1.59	
+steyn_fold	PGR	adult_over_paediatric=4.71	
+steyn_fold	ACTB	adult_over_paediatric=1.95	
+steyn_fold	GAPDH	adult_over_paediatric=1.55	
+steyn_fold	RPL13A	adult_over_paediatric=1.66	
+steyn_fold	RPLP0	adult_over_paediatric=1.59	
+steyn_fold	TBP	adult_over_paediatric=0.79	
+steyn_fold	PGK1	adult_over_paediatric=0.92	
+steyn_fold	NR3C1	adult_over_paediatric=1.04	
+steyn_fold	NR3C2	adult_over_paediatric=1.05	
+steyn_fold	ESR1	adult_over_paediatric=0.62	
+steyn_fold	AR	adult_over_paediatric=0.84	
+steyn_fold	GPER1	adult_over_paediatric=1.75	
+steyn_fold	CLDN5	adult_over_paediatric=1.68	
+steyn_fold	PECAM1	adult_over_paediatric=0.77	

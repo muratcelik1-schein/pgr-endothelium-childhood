@@ -1,0 +1,155 @@
+block	key	value	note
+meta	seed	2026	
+meta	groups_kept	1406	of 1831, at least 20 cells
+meta	amplitude	8 log spaced age bins, last two minus first two	on log2 counts per 10,000, postnatal age
+negative_control	Endo	housekeeping median percentile 55.7	must lie between 30 and 70, or the class is not interpreted
+Endo	PGR	log2 +0.7317; percentile 100.00	abundance bin holds 954 genes
+Endo	PGR-AS1	log2 +0.5396; percentile 99.90	abundance bin holds 954 genes
+Endo	AKR1C1	log2 +0.2054; percentile 99.16	abundance bin holds 954 genes
+Endo	AKR1C3	log2 +0.1229; percentile 88.78	abundance bin holds 954 genes
+Endo	PGRMC1	log2 -0.1343; percentile 55.87	abundance bin holds 954 genes
+Endo	PAQR5	log2 -0.0897; percentile 32.91	abundance bin holds 954 genes
+Endo	VWF	log2 +0.6479; percentile 91.09	abundance bin holds 954 genes
+Endo	FLT1	log2 +0.1292; percentile 32.70	abundance bin holds 954 genes
+Endo	PECAM1	log2 -0.0680; percentile 18.13	abundance bin holds 954 genes
+Endo	CLDN5	log2 +0.0303; percentile 7.97	abundance bin holds 954 genes
+Endo	ABCB1	log2 -0.0496; percentile 12.79	abundance bin holds 954 genes
+Endo	NR3C1	log2 +0.0735; percentile 19.71	abundance bin holds 954 genes
+Endo	NR3C2	log2 +0.7698; percentile 94.44	abundance bin holds 954 genes
+Endo	ESR1	log2 -0.0188; percentile 21.80	abundance bin holds 954 genes
+Endo	AR	log2 -0.0775; percentile 88.16	abundance bin holds 954 genes
+Endo	GPER1	log2 +0.1972; percentile 85.74	abundance bin holds 954 genes
+gate	production	PASS	PGR log2 0.7317 (expected 0.7317), percentile 100.0 (expected 100.0)
+top_of_each_bin	n_bins	20	one gene tops each abundance bin
+top_of_each_bin	rising	5	
+top_of_each_bin	falling	15	
+top_of_each_bin	HERC2P3	log2 +3.8396	mean 11.5672 counts per 10,000, bin of 954
+top_of_each_bin	ZC3H12B	log2 +1.3174	mean 1.1326 counts per 10,000, bin of 954
+top_of_each_bin	PGR	log2 +0.7317	mean 0.3978 counts per 10,000, bin of 954
+top_of_each_bin	PERP	log2 +0.6505	mean 0.5511 counts per 10,000, bin of 954
+top_of_each_bin	DMKN	log2 +0.1798	mean 0.0625 counts per 10,000, bin of 954
+top_of_each_bin	WNT4	log2 -0.0362	mean 0.0115 counts per 10,000, bin of 955
+top_of_each_bin	BTBD17	log2 -0.0655	mean 0.0165 counts per 10,000, bin of 955
+top_of_each_bin	ENSG00000291189	log2 -0.0656	mean 0.0193 counts per 10,000, bin of 955
+top_of_each_bin	PTTG1	log2 -0.0866	mean 0.0292 counts per 10,000, bin of 955
+top_of_each_bin	BCHE	log2 -0.1279	mean 0.0335 counts per 10,000, bin of 954
+top_of_each_bin	NODAL	log2 -0.1773	mean 0.0515 counts per 10,000, bin of 954
+top_of_each_bin	IGF2BP3	log2 -0.2396	mean 0.0846 counts per 10,000, bin of 954
+top_of_each_bin	COL3A1	log2 -0.4675	mean 0.1494 counts per 10,000, bin of 954
+top_of_each_bin	SLC14A1	log2 -0.4828	mean 0.1100 counts per 10,000, bin of 954
+top_of_each_bin	SLC1A4	log2 -0.5508	mean 0.2527 counts per 10,000, bin of 954
+top_of_each_bin	COL1A1	log2 -0.5674	mean 0.1358 counts per 10,000, bin of 954
+top_of_each_bin	APLNR	log2 -0.6335	mean 0.2108 counts per 10,000, bin of 954
+top_of_each_bin	LAMB1	log2 -0.6949	mean 0.3224 counts per 10,000, bin of 954
+top_of_each_bin	TUSC3	log2 -1.3738	mean 1.4539 counts per 10,000, bin of 954
+top_of_each_bin	SOX4	log2 -1.4007	mean 0.6053 counts per 10,000, bin of 954
+negative_control	VLMC	housekeeping median percentile 74.7	must lie between 30 and 70, or the class is not interpreted  BROKEN, NOT INTERPRETED
+negative_control	Astro	housekeeping median percentile 64.8	must lie between 30 and 70, or the class is not interpreted
+Astro	PGR	below the expression threshold	
+Astro	PGR-AS1	below the expression threshold	
+Astro	AKR1C1	log2 -0.0199; percentile 93.33	abundance bin holds 1004 genes
+Astro	AKR1C3	log2 +0.0756; percentile 93.03	abundance bin holds 1004 genes
+Astro	PGRMC1	log2 -0.2161; percentile 96.61	abundance bin holds 1003 genes
+Astro	PAQR5	log2 -0.0084; percentile 58.07	abundance bin holds 1004 genes
+Astro	VWF	log2 +0.0107; percentile 29.48	abundance bin holds 1004 genes
+Astro	FLT1	log2 -0.0015; percentile 5.18	abundance bin holds 1004 genes
+Astro	PECAM1	log2 -0.0054; percentile 24.20	abundance bin holds 1004 genes
+Astro	CLDN5	log2 -0.1019; percentile 94.02	abundance bin holds 1004 genes
+Astro	ABCB1	log2 -0.0156; percentile 41.04	abundance bin holds 1004 genes
+Astro	NR3C1	log2 +0.1491; percentile 56.33	abundance bin holds 1003 genes
+Astro	NR3C2	log2 +0.0708; percentile 20.44	abundance bin holds 1003 genes
+Astro	ESR1	log2 +0.0427; percentile 73.61	abundance bin holds 1004 genes
+Astro	AR	log2 -0.4119; percentile 98.21	abundance bin holds 1003 genes
+Astro	GPER1	log2 -0.0074; percentile 31.57	abundance bin holds 1004 genes
+negative_control	Micro/PVM	housekeeping median percentile 56.1	must lie between 30 and 70, or the class is not interpreted
+Micro/PVM	PGR	below the expression threshold	
+Micro/PVM	PGR-AS1	below the expression threshold	
+Micro/PVM	AKR1C1	log2 -0.0185; percentile 67.57	abundance bin holds 999 genes
+Micro/PVM	AKR1C3	log2 -0.0124; percentile 80.08	abundance bin holds 999 genes
+Micro/PVM	PGRMC1	log2 -0.1100; percentile 71.24	abundance bin holds 998 genes
+Micro/PVM	PAQR5	log2 +0.1655; percentile 87.88	abundance bin holds 998 genes
+Micro/PVM	VWF	log2 +0.0205; percentile 46.85	abundance bin holds 999 genes
+Micro/PVM	FLT1	log2 +0.0802; percentile 62.93	abundance bin holds 998 genes
+Micro/PVM	PECAM1	log2 +0.3304; percentile 93.89	abundance bin holds 998 genes
+Micro/PVM	CLDN5	log2 -0.0287; percentile 62.46	abundance bin holds 999 genes
+Micro/PVM	ABCB1	log2 -0.1080; percentile 94.89	abundance bin holds 999 genes
+Micro/PVM	NR3C1	log2 +0.1892; percentile 64.13	abundance bin holds 998 genes
+Micro/PVM	NR3C2	log2 +1.0616; percentile 99.80	abundance bin holds 998 genes
+Micro/PVM	ESR1	log2 -0.0789; percentile 81.98	abundance bin holds 999 genes
+Micro/PVM	AR	log2 -0.0186; percentile 54.25	abundance bin holds 999 genes
+Micro/PVM	GPER1	below the expression threshold	
+negative_control	L2/3 IT	housekeeping median percentile 67.3	must lie between 30 and 70, or the class is not interpreted
+L2/3 IT	PGR	below the expression threshold	
+L2/3 IT	PGR-AS1	below the expression threshold	
+L2/3 IT	AKR1C1	log2 +0.0207; percentile 58.02	abundance bin holds 998 genes
+L2/3 IT	AKR1C3	log2 +0.0044; percentile 14.63	abundance bin holds 998 genes
+L2/3 IT	PGRMC1	log2 -0.1233; percentile 52.66	abundance bin holds 997 genes
+L2/3 IT	PAQR5	log2 +0.0179; percentile 82.26	abundance bin holds 998 genes
+L2/3 IT	VWF	log2 +0.0345; percentile 74.45	abundance bin holds 998 genes
+L2/3 IT	FLT1	log2 +0.0098; percentile 39.78	abundance bin holds 998 genes
+L2/3 IT	PECAM1	log2 +0.0011; percentile 3.51	abundance bin holds 998 genes
+L2/3 IT	CLDN5	log2 -0.0104; percentile 68.44	abundance bin holds 998 genes
+L2/3 IT	ABCB1	log2 +0.0084; percentile 11.82	abundance bin holds 998 genes
+L2/3 IT	NR3C1	log2 +0.8319; percentile 97.39	abundance bin holds 997 genes
+L2/3 IT	NR3C2	log2 +1.0335; percentile 98.90	abundance bin holds 997 genes
+L2/3 IT	ESR1	log2 +0.0067; percentile 9.72	abundance bin holds 998 genes
+L2/3 IT	AR	log2 -0.0143; percentile 25.45	abundance bin holds 998 genes
+L2/3 IT	GPER1	log2 +0.0025; percentile 18.24	abundance bin holds 998 genes
+negative_control	Oligo	housekeeping median percentile 48.4	must lie between 30 and 70, or the class is not interpreted
+Oligo	PGR	below the expression threshold	
+Oligo	PGR-AS1	below the expression threshold	
+Oligo	AKR1C1	log2 +0.0061; percentile 26.14	abundance bin holds 945 genes
+Oligo	AKR1C3	below the expression threshold	
+Oligo	PGRMC1	log2 -0.1885; percentile 57.42	abundance bin holds 944 genes
+Oligo	PAQR5	log2 +0.0129; percentile 77.25	abundance bin holds 945 genes
+Oligo	VWF	log2 -0.1343; percentile 92.70	abundance bin holds 945 genes
+Oligo	FLT1	log2 +0.0536; percentile 69.84	abundance bin holds 945 genes
+Oligo	PECAM1	log2 +0.0369; percentile 79.15	abundance bin holds 945 genes
+Oligo	CLDN5	log2 -0.0330; percentile 54.07	abundance bin holds 945 genes
+Oligo	ABCB1	log2 +0.0497; percentile 66.77	abundance bin holds 945 genes
+Oligo	NR3C1	log2 +0.1378; percentile 28.39	abundance bin holds 944 genes
+Oligo	NR3C2	log2 +0.0834; percentile 28.71	abundance bin holds 944 genes
+Oligo	ESR1	log2 +0.0343; percentile 65.19	abundance bin holds 945 genes
+Oligo	AR	log2 -0.0262; percentile 51.01	abundance bin holds 945 genes
+Oligo	GPER1	below the expression threshold	
+negative_control	OPC	housekeeping median percentile 53.0	must lie between 30 and 70, or the class is not interpreted
+OPC	PGR	log2 +0.0186; percentile 83.86	abundance bin holds 985 genes
+OPC	PGR-AS1	log2 +0.0058; percentile 48.53	abundance bin holds 985 genes
+OPC	AKR1C1	log2 -0.0161; percentile 31.68	abundance bin holds 985 genes
+OPC	AKR1C3	log2 +0.0563; percentile 66.40	abundance bin holds 985 genes
+OPC	PGRMC1	log2 -0.1043; percentile 57.66	abundance bin holds 985 genes
+OPC	PAQR5	log2 +0.0052; percentile 35.23	abundance bin holds 985 genes
+OPC	VWF	log2 +0.0351; percentile 79.09	abundance bin holds 985 genes
+OPC	FLT1	log2 +0.0154; percentile 41.52	abundance bin holds 985 genes
+OPC	PECAM1	log2 +0.0210; percentile 74.11	abundance bin holds 985 genes
+OPC	CLDN5	log2 -0.0414; percentile 90.36	abundance bin holds 985 genes
+OPC	ABCB1	log2 -0.0138; percentile 33.20	abundance bin holds 985 genes
+OPC	NR3C1	log2 +0.0775; percentile 29.57	abundance bin holds 984 genes
+OPC	NR3C2	log2 +0.0082; percentile 2.24	abundance bin holds 984 genes
+OPC	ESR1	log2 +0.1761; percentile 95.33	abundance bin holds 985 genes
+OPC	AR	log2 -0.0333; percentile 31.17	abundance bin holds 985 genes
+OPC	GPER1	below the expression threshold	
+negative_control	Pvalb	housekeeping median percentile 70.0	must lie between 30 and 70, or the class is not interpreted
+Pvalb	PGR	below the expression threshold	
+Pvalb	PGR-AS1	below the expression threshold	
+Pvalb	AKR1C1	log2 -0.0586; percentile 94.57	abundance bin holds 976 genes
+Pvalb	AKR1C3	log2 +0.0050; percentile 23.16	abundance bin holds 976 genes
+Pvalb	PGRMC1	log2 -0.2315; percentile 91.09	abundance bin holds 976 genes
+Pvalb	PAQR5	log2 -0.0004; percentile 5.74	abundance bin holds 976 genes
+Pvalb	VWF	log2 +0.0007; percentile 1.84	abundance bin holds 976 genes
+Pvalb	FLT1	log2 +0.0615; percentile 90.88	abundance bin holds 976 genes
+Pvalb	PECAM1	log2 -0.0068; percentile 31.45	abundance bin holds 976 genes
+Pvalb	CLDN5	log2 -0.0140; percentile 66.29	abundance bin holds 976 genes
+Pvalb	ABCB1	log2 +0.0253; percentile 39.86	abundance bin holds 976 genes
+Pvalb	NR3C1	log2 +0.3458; percentile 89.65	abundance bin holds 976 genes
+Pvalb	NR3C2	log2 +0.8219; percentile 99.49	abundance bin holds 976 genes
+Pvalb	ESR1	log2 +0.0478; percentile 83.81	abundance bin holds 976 genes
+Pvalb	AR	log2 +0.0470; percentile 46.00	abundance bin holds 976 genes
+Pvalb	GPER1	log2 +0.0084; percentile 55.02	abundance bin holds 976 genes
+loso	studies	herring=8; velmeshev=29; wang=9; zhu=7	endothelial donor groups per study
+loso	all studies	PGR log2 +0.7317; percentile 100.00	53 groups; housekeeping median 55.7
+loso	without herring	PGR log2 +0.6586; percentile 99.89	45 groups; housekeeping median 59.6
+loso	without velmeshev	PGR log2 +0.7162; percentile 99.37	24 groups; housekeeping median 59.0
+loso	without wang	PGR log2 +0.7164; percentile 100.00	44 groups; housekeeping median 60.7
+loso	without zhu	PGR log2 +0.7863; percentile 100.00	46 groups; housekeeping median 53.5
+limits	what_this_is_not	A percentile inside an abundance bin is a statement about amplitude, not about timing, and not about function. Twenty genes top the twenty bins, so leading one bin is not leading the transcriptome.	

@@ -1,0 +1,37 @@
+block	key	value	note
+meta	seed	2026	
+meta	donors	53	endothelial groups with at least 20 nuclei
+meta	age_range	0.00 to 44.00	postnatal years
+gate	PGR_expression_vs_age	+0.676	n = 53 donors
+gate	production	PASS	the age association must be present in this subset
+note	prediction	no negative partial correlation expected	the programme is ligand gated and the ligand is least available across this window
+target	CLDN5	partial rho -0.234; p = 0.09176	mean 18.9282 counts per 10,000
+target	PECAM1	partial rho -0.099; p = 0.4804	mean 4.2932 counts per 10,000
+target	CDH5	partial rho +0.052; p = 0.7137	mean 2.0313 counts per 10,000
+positive_control	PGR-AS1	partial rho +0.514; p = 8.231e-05	mean 0.2453 counts per 10,000
+positive_control	ZNF385B	partial rho +0.218; p = 0.117	mean 3.0471 counts per 10,000
+other	NR4A1	partial rho -0.026; p = 0.8537	mean 2.5838 counts per 10,000
+other	NR4A2	partial rho +0.118; p = 0.4	mean 0.6542 counts per 10,000
+other	NR4A3	partial rho +0.047; p = 0.7382	mean 0.2226 counts per 10,000
+other	OCLN	partial rho +0.451; p = 0.0006987	mean 1.5268 counts per 10,000
+other	TJP1	partial rho +0.066; p = 0.64	mean 8.8363 counts per 10,000
+other	VWF	partial rho -0.310; p = 0.02377	mean 6.6395 counts per 10,000
+other	FLT1	partial rho +0.189; p = 0.1748	mean 35.5744 counts per 10,000
+other	ABCB1	partial rho +0.085; p = 0.5448	mean 29.2479 counts per 10,000
+other	PGRMC1	partial rho -0.084; p = 0.552	mean 0.6193 counts per 10,000
+other	PAQR5	partial rho +0.167; p = 0.2332	mean 1.3504 counts per 10,000
+negative_control	housekeeping_median	partial rho -0.014	19 genes, 5th to 95th percentile -0.159 to +0.211
+holm	CLDN5	p = 0.09176; Holm p = 0.2753	corrected across the three junctional targets
+holm	PECAM1	p = 0.4804; Holm p = 0.9609	corrected across the three junctional targets
+holm	CDH5	p = 0.7137; Holm p = 0.7137	corrected across the three junctional targets
+matched_null	CLDN5	percentile 2.0 of 200 matched genes	null median +0.056, 5th percentile -0.170
+matched_null	PECAM1	percentile 13.5 of 200 matched genes	null median +0.071, 5th percentile -0.171
+matched_null	CDH5	percentile 49.5 of 200 matched genes	null median +0.062, 5th percentile -0.152
+depth	rho_depth_vs_age	-0.238	donor sequencing depth against age
+depth_adjusted	CLDN5	partial rho -0.187; p = 0.181	age, depth and nucleus count removed; against -0.234 with age alone
+depth_adjusted	PECAM1	partial rho -0.072; p = 0.6093	age, depth and nucleus count removed; against -0.099 with age alone
+depth_adjusted	CDH5	partial rho +0.085; p = 0.5462	age, depth and nucleus count removed; against +0.052 with age alone
+depth_adjusted	NR4A1	partial rho -0.036; p = 0.7982	age, depth and nucleus count removed; against -0.026 with age alone
+depth_adjusted	OCLN	partial rho +0.442; p = 0.0009105	age, depth and nucleus count removed; against +0.451 with age alone
+VERDICT	programme_not_silent	at least one target is negative, see the null above	the falsification condition was met, read the null and Holm rows
+limits	what_this_cannot_do	A partial correlation across donors is not a perturbation. A silent programme does not show the receptor is inert.	

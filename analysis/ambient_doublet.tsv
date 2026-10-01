@@ -1,0 +1,31 @@
+block	key	value	note
+meta	file	devbrain_jointanalysis_07072026.h5ad	
+meta	doublet_column_present	True	scDblFinder.class
+meta	doublet_levels	singlet=2157582	
+series	endothelial_nuclei_above_cut	5436	
+series	nuclei_after_donor_threshold	5388	
+series	donors	65	
+series	PGR_positive_nuclei	457	8.48% of nuclei
+gate	donor_level_positive_fraction_vs_age	+0.707	p = 4.7e-11, n = 65
+gate	reproduction	PASS	65 donors, 5,388 nuclei, +0.707 as shipped
+doublet	called_doublets_in_series	0 of 5388	0.00%
+doublet	doublet_rate_positive_vs_negative	0.00% against 0.00%	odds ratio nan, Fisher p = 1
+doublet	age_association_without_doublets	+0.707	p = 4.7e-11, n = 65 donors; against +0.707 with them
+mural	markers_used	DCN; COL1A2; LUM; PDGFRB; RGS5; KCNJ8; ACTA2; MYH11	
+mural	neural_markers_used	SNAP25; SYT1; RBFOX3; PLP1; MBP; MOBP; AQP4; GFAP; SLC1A2; CSF1R	
+mural	positive_control_nonEndo_vs_Endo	0.8114 against 0.2864	one sided p = 0, n = 3815 against 5388
+mural	positive_control	PASS	
+mural	target_positive_minus_negative	+0.2166	difference in mural score between PGR positive and PGR negative endothelial nuclei
+matched	candidate_genes_in_detection_window	2463	target detected in 8.48% of nuclei, window +-25%
+matched	null_genes_used	200	
+matched	null_median_difference	+0.2574	5th to 95th percentile +0.1422 to +0.4659
+matched	target_percentile_in_null	30.5	two sided empirical p = 0.6100
+companion	ZNF385B_mural_difference	+0.1382	percentile in the same null 4.5
+companion	ZNF385B_neural_ambient_difference	+0.0799	
+target	PGR_neural_ambient_difference	+0.1269	the manuscript's own ambient compartment, for comparison
+age	mural_score_vs_age	+0.085	p = 0.5, n = 65 donors
+age	neural_ambient_vs_age	+0.143	p = 0.255
+age	age_association_after_removing_mural_score	+0.706	p = 7.46e-11; against +0.707 unadjusted
+age	age_association_without_top_decile_mural	+0.695	p = 1.87e-10, n = 64 donors, 4849 nuclei retained
+limits	what_this_cannot_do	A doublet call and a marker score bound contamination; they do not exclude it. Ambient RNA that is uniform across nuclei of one donor moves no within donor comparison.	
+limits	seed	2026	

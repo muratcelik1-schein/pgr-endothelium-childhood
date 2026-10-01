@@ -1,0 +1,13 @@
+block	key	value	note
+gate	series	65 donors, 5388 nuclei	manuscript reports 65 and 5,388
+test_one	question	does the module track the receptor, or the donor?	
+test_one	bound	with_PGR=+0.407 (null +0.283, p=0.0005); with_endothelial_housekeeping=-0.083 (null -0.118, p=0.9620)	a module that tracks both is tracking the donor
+test_one	permeability	with_PGR=+0.427 (null +0.211, p=0.0210); with_endothelial_housekeeping=+0.039 (null -0.181, p=0.8961)	a module that tracks both is tracking the donor
+test_one	housekeeping_control	with_PGR=+0.033 (null +0.169, p=0.9220); with_endothelial_housekeeping=+1.000 (null -0.164, p=0.0005)	a module that tracks both is tracking the donor
+segment	arterial	1703	
+segment	capillary	2333	
+segment	venous	1352	
+test_two	target_venous_minus_arterial	+0.0591	among nuclei positive for the gene, venous share minus arterial share
+test_two	against_abundance_matched_genes	939 genes in the target's abundance bin; target at the 90.7th percentile; p=0.0936	the control the earlier segment analysis never ran
+test_two	matched_gene_median	+0.0090	
+limit	seed	2026	

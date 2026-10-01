@@ -1,0 +1,12 @@
+block	key	value	note
+source	file	41588_2024_1990_MOESM11_ESM.xlsx	Supplementary Table of the temporal cortex cohort, sheet 'Endo L2-6 NOSTRIN'
+PGR	baseMean.x	9.198341	read from the published supplementary table
+PGR	log2FoldChange	-0.000764	read from the published supplementary table
+PGR	padj	0.99977	read from the published supplementary table
+PGR	BaseMeanPaed	7.179073	read from the published supplementary table
+PGR	BaseMeanAdult	10.180049	read from the published supplementary table
+PGR-AS1	baseMean.x	4.675164	read from the published supplementary table
+PGR-AS1	log2FoldChange	-7e-05	read from the published supplementary table
+PGR-AS1	padj	0.99977	read from the published supplementary table
+PGR-AS1	BaseMeanPaed	6.850359	read from the published supplementary table
+PGR-AS1	BaseMeanAdult	3.310941	read from the published supplementary table

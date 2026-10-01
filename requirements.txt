@@ -1,0 +1,8 @@
+# Versions used for every result in the manuscript (Python 3.9.6, macOS)
+numpy==2.0.2
+pandas==2.3.3
+scipy==1.13.1
+h5py==3.14.0
+matplotlib==3.9.4
+statsmodels==0.14.6
+pillow==11.3.0

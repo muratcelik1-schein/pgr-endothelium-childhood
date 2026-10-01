@@ -1,0 +1,54 @@
+block	key	value	note
+Q1_meta	endothelial_nuclei_cortex	1799	
+Q1_meta	median_depth	3019.0	
+Q1_markers	arterial	6 of 6 present	GJA5; SEMA3G; HEY1; ALPL; VEGFC; BMX
+Q1_markers	capillary	5 of 5 present	MFSD2A; SLC7A5; TFRC; SLC16A1; RGCC
+Q1_markers	venous	5 of 5 present	NR2F2; VWF; ACKR1; PLVAP; IL1R1
+Q1_assignment	arterial	317 (17.6%)	
+Q1_assignment	capillary	608 (33.8%)	
+Q1_assignment	venous	347 (19.3%)	
+Q1_assignment	unassigned	527 (29.3%)	
+Q1_gate	arterial	top=arterial; arterial=3.709; capillary=0.573; venous=0.281	PASS
+Q1_gate	capillary	top=capillary; arterial=3.341; capillary=10.253; venous=4.118	PASS
+Q1_gate	venous	top=venous; arterial=0.978; capillary=1.317; venous=4.279	PASS
+Q1_gate	segment_labelling_recovered	True	if False no segment claim about PGR follows
+Q1a_composition	arterial	rho=-0.140; p=0.6992; donors=10; share 0.00 to 0.26	no significant shift
+Q1a_composition	capillary	rho=-0.616; p=0.0580; donors=10; share 0.17 to 0.54	no significant shift
+Q1a_composition	venous	rho=+0.262; p=0.4643; donors=10; share 0.09 to 0.29	no significant shift
+Q1b_within_segment	arterial	expr rho=+0.829 p=0.0212; pct_pos rho=+0.919 p=0.0034; donors=7; nuclei=306	
+Q1b_within_segment	capillary	expr rho=+0.709 p=0.0325; pct_pos rho=+0.743 p=0.0219; donors=9; nuclei=605	
+Q1b_within_segment	venous	expr rho=+0.538 p=0.1347; pct_pos rho=+0.564 p=0.1136; donors=9; nuclei=344	
+Q1c_pos_vs_neg	share_arterial	PGR+ 10.9%; PGR- 18.7%	n_pos=239, n_neg=1560
+Q1c_pos_vs_neg	share_capillary	PGR+ 31.8%; PGR- 34.1%	n_pos=239, n_neg=1560
+Q1c_pos_vs_neg	share_venous	PGR+ 26.8%; PGR- 18.1%	n_pos=239, n_neg=1560
+Q1c_pos_vs_neg	chi2_segment_by_PGR_status	chi2=15.63; p=0.0004046; dof=2	significant means PGR+ nuclei sit preferentially on one segment
+Q2_meta	question	do the glial pruning and allopregnanolone target genes follow the endothelial schedule	same donors, same window
+Q2_astrocyte	nuclei	10318	
+Q2_astrocyte	donors	10	
+Q2_astrocyte	complement_pruning_module	rho=-0.341; p=0.3342; genes=14	C1QA; C1QB; C1QC; C3; C4A; C4B; ITGAM; CX3CR1
+Q2_astrocyte	allopregnanolone_target_module	rho=+0.274; p=0.4429; genes=11	GABRA1; GABRA2; GABRA3; GABRA4; GABRA5; GABRB1; GABRB2; GABRB3
+Q2_astrocyte	housekeeping_module_CONTROL	rho=-0.287; p=0.4221; genes=6	ACTB; GAPDH; RPL13A; RPLP0; TBP; PGK1
+Q2_astrocyte	pruning_exceeds_housekeeping	True	|-0.341| vs |-0.287| ; if False the technical axis dominates and the comparison carries no interpretable signal
+Q2_astrocyte	allo_target_exceeds_housekeeping	False	|+0.274| vs |-0.287| ; if False the technical axis dominates and the comparison carries no interpretable signal
+Q2_astrocyte_gene	C1QA	rho=+0.222; p=0.5372	
+Q2_astrocyte_gene	C3	rho=+0.561; p=0.0916	
+Q2_astrocyte_gene	TREM2	rho=-0.422; p=0.2239	
+Q2_astrocyte_gene	P2RY12	rho=+0.110; p=0.7628	
+Q2_astrocyte_gene	TLR4	rho=+0.549; p=0.1004	
+Q2_astrocyte_gene	GABRB1	rho=-0.006; p=0.9867	
+Q2_microglia	nuclei	4481	
+Q2_microglia	donors	9	
+Q2_microglia	complement_pruning_module	rho=-0.420; p=0.2602; genes=14	C1QA; C1QB; C1QC; C3; C4A; C4B; ITGAM; CX3CR1
+Q2_microglia	allopregnanolone_target_module	rho=+0.546; p=0.1281; genes=11	GABRA1; GABRA2; GABRA3; GABRA4; GABRA5; GABRB1; GABRB2; GABRB3
+Q2_microglia	housekeeping_module_CONTROL	rho=-0.504; p=0.1663; genes=6	ACTB; GAPDH; RPL13A; RPLP0; TBP; PGK1
+Q2_microglia	pruning_exceeds_housekeeping	False	|-0.420| vs |-0.504| ; if False the technical axis dominates and the comparison carries no interpretable signal
+Q2_microglia	allo_target_exceeds_housekeeping	True	|+0.546| vs |-0.504| ; if False the technical axis dominates and the comparison carries no interpretable signal
+Q2_microglia_gene	C1QA	rho=-0.261; p=0.4984	
+Q2_microglia_gene	C3	rho=-0.084; p=0.8298	
+Q2_microglia_gene	TREM2	rho=-0.462; p=0.2103	
+Q2_microglia_gene	P2RY12	rho=+0.092; p=0.8130	
+Q2_microglia_gene	TLR4	rho=+0.084; p=0.8298	
+Q2_microglia_gene	GABRB1	rho=-0.555; p=0.1212	
+limits	cohort	multiome cohort only	the primary developmental series was not reanalysed here; its annotation file could not be recovered
+limits	segments	marker score argmax, not a trained classifier	single nuclei carry weaker zonation signal than whole cells
+limits	seed	2026	

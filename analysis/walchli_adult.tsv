@@ -1,0 +1,63 @@
+block	key	value	note
+meta	object	GSE256493_Adult_control_brain_temporal_lobe_sorted_endothelial_cells_seurat_object.rds	
+meta	cohort	adult	
+meta	n_cell_total	76125	
+meta	cluster_column	ECclusters	discovered
+meta	patient_column	Patient	
+meta	n_patient	9	
+clusters	Capillary	36268	
+clusters	Arteriole	18487	
+clusters	Angiogenic capillary	4863	
+clusters	Venule	4780	
+clusters	Artery	3114	
+clusters	Large artery	2157	
+clusters	EndoMT	2088	
+clusters	Vein	1792	
+clusters	Large vein	1406	
+clusters	Mitochondrial	820	
+clusters	Proliferating cell	305	
+clusters	Stem-to-EC	45	
+mapping	arterial	23758	Arteriole; Artery; Large artery
+mapping	capillary	41131	Angiogenic capillary; Capillary
+mapping	venous	7978	Large vein; Vein; Venule
+mapping	excluded	3258	EndoMT; Mitochondrial; Proliferating cell; Stem-to-EC
+meta	n_gene	26666	
+meta	median_counts_per_cell	4569	
+meta	n_cell_endothelial_segments	72867	
+meta	n_cell_excluded	3258	non endothelial states in the same object
+gate_markers	arterial	6 of 6 present	GJA5; SEMA3G; HEY1; ALPL; VEGFC; BMX
+gate_result	arterial	top=arterial; arterial=1.612; capillary=0.361; venous=0.155	PASS
+gate_markers	capillary	5 of 5 present	MFSD2A; SLC7A5; TFRC; SLC16A1; RGCC
+gate_result	capillary	top=capillary; arterial=6.456; capillary=9.595; venous=4.998	PASS
+gate_markers	venous	5 of 5 present	NR2F2; VWF; ACKR1; PLVAP; IL1R1
+gate_result	venous	top=venous; arterial=1.125; capillary=1.498; venous=3.399	PASS
+gate_result	zonation_labelling_recovered	TRUE	if FALSE no PGR segment claim follows
+segment_expression	PGR	art=0.3512 cap=0.4915 ven=0.5149 | pct art=17.51 cap=18.84 ven=23.21 | top=venous	TARGET; chi2 p=2.7e-28 (uncorrected, exploratory)
+segment_expression	PECAM1	art=4.7226 cap=4.0769 ven=3.8607 | pct art=83.18 cap=72.09 ven=78.01 | top=arterial	identity control; chi2 p=2.55e-226 (uncorrected, exploratory)
+segment_expression	CLDN5	art=74.8270 cap=71.8452 ven=64.0763 | pct art=99.90 cap=99.63 ven=99.45 | top=arterial	identity control; chi2 p=5.59e-13 (uncorrected, exploratory)
+segment_expression	FLT1	art=14.8473 cap=9.8369 ven=6.9809 | pct art=94.72 cap=85.84 ven=84.66 | top=arterial	identity control; chi2 p=3.39e-286 (uncorrected, exploratory)
+segment_expression	GJA5	art=0.4290 cap=0.0055 ven=0.0075 | pct art=10.15 cap=0.24 ven=0.40 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	SEMA3G	art=3.9027 cap=0.7849 ven=0.2703 | pct art=78.11 cap=24.01 ven=10.73 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	HEY1	art=1.5111 cap=0.4399 ven=0.2763 | pct art=48.69 cap=15.78 ven=13.66 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	ALPL	art=3.0744 cap=0.6972 ven=0.2028 | pct art=64.89 cap=19.41 ven=8.12 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	VEGFC	art=0.5211 cap=0.2146 ven=0.1520 | pct art=22.27 cap=9.34 ven=8.62 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	BMX	art=0.2354 cap=0.0221 ven=0.0220 | pct art=9.18 cap=0.98 ven=1.15 | top=arterial	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	MFSD2A	art=7.4227 cap=9.1169 ven=5.3581 | pct art=72.41 cap=86.35 ven=77.98 | top=capillary	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	SLC7A5	art=7.9638 cap=10.8241 ven=5.8642 | pct art=78.31 cap=92.04 ven=83.15 | top=capillary	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	TFRC	art=2.6942 cap=4.0334 ven=1.8908 | pct art=63.23 cap=70.67 ven=57.08 | top=capillary	segment marker; chi2 p=2.01e-164 (uncorrected, exploratory)
+segment_expression	SLC16A1	art=1.8282 cap=3.7579 ven=2.6357 | pct art=45.59 cap=63.25 ven=57.66 | top=capillary	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	RGCC	art=12.3730 cap=20.2434 ven=9.2418 | pct art=69.63 cap=91.45 ven=82.98 | top=capillary	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	NR2F2	art=0.3624 cap=0.5861 ven=1.0834 | pct art=17.46 cap=20.82 ven=38.84 | top=venous	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	VWF	art=4.9072 cap=6.4818 ven=8.7240 | pct art=81.12 cap=78.69 ven=88.76 | top=venous	segment marker; chi2 p=4.27e-96 (uncorrected, exploratory)
+segment_expression	ACKR1	art=0.0228 cap=0.0340 ven=4.4555 | pct art=1.00 cap=1.24 ven=27.09 | top=venous	segment marker; chi2 p=0 (uncorrected, exploratory)
+segment_expression	PLVAP	art=0.0072 cap=0.0160 ven=0.0713 | pct art=0.38 cap=0.59 ven=2.58 | top=venous	segment marker; chi2 p=1.15e-92 (uncorrected, exploratory)
+segment_expression	IL1R1	art=0.3244 cap=0.3709 ven=2.6584 | pct art=13.32 cap=10.87 ven=48.48 | top=venous	segment marker; chi2 p=0 (uncorrected, exploratory)
+multiple_testing	method	Benjamini-Hochberg across the genes tested	20
+multiple_testing	PGR	p=2.7e-28; q=2.84e-28	significant after correction
+per_patient	arterial	TL1=0.3222; TL10=0.3805; TL2=0.1979; TL3=0.2708; TL4=0.2995; TL5=0.4141; TL6=0.4222; TL7=0.2856; TL9=0.3013	cells fewer than 20 shown as NA
+per_patient	capillary	TL1=0.3920; TL10=0.4552; TL2=0.2666; TL3=0.5941; TL4=0.4848; TL5=0.6777; TL6=0.5776; TL7=0.7481; TL9=0.5758	cells fewer than 20 shown as NA
+per_patient	venous	TL1=0.3988; TL10=0.4094; TL2=0.2309; TL3=0.5692; TL4=0.5829; TL5=0.7246; TL6=0.7049; TL7=NA; TL9=0.3495	cells fewer than 20 shown as NA
+per_patient	top_segment_per_patient	TL1=venous; TL10=capillary; TL2=capillary; TL3=capillary; TL4=venous; TL5=venous; TL6=venous; TL7=capillary; TL9=capillary	agreement across patients matters more than the pooled value
+limits	cohort_age	adult	this cohort cannot speak to the postnatal childhood window
+limits	assay	scRNA-seq of sorted cells, not single nuclei	detection floor differs; segment ranking is comparable, absolute levels are not
+limits	seed	2026	

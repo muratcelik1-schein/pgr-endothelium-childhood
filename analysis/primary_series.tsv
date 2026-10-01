@@ -1,0 +1,157 @@
+block	key	value	note
+meta	file	devbrain_jointanalysis_07072026.h5ad	
+meta	n_cell_total	2157582	
+meta	studies	bhaduri=876282; cameron=116061; eze=63186; herring=229259; salamon=182327; vanbruggen=27341; velmeshev=279466; wang=333402; zhu=50258	
+meta	age_range	0.12 to 54.77	
+meta	X_encoding	csr_matrix	
+meta	X_integral	True	raw counts required for the depth correction
+S0_repro	rule	cellclass=='Vascular' & final_annotation=='Endo', age>0.75, >=10 cells per donor	the manuscript's own restriction
+S0_repro	endothelial_cells_all_ages	9692	
+S0_repro	donors_retained	65	manuscript reports 65
+S0_repro	nuclei_retained	5388	manuscript reports 5,388
+S0_repro	studies_contributing	herring; velmeshev; wang; zhu	manuscript reports four
+S0_repro	age_span	0.77 to 44.77	manuscript reports 0.77 to 44.8
+S0_repro	datatype_mix	snRNA-seq=5388	
+S0_repro	rho_age_vs_positive_fraction	rho=+0.707; p=4.7e-11; donors=65	manuscript reports +0.707
+S0_repro	match_donors	got 65, manuscript 65	MATCH
+S0_repro	match_nuclei	got 5388, manuscript 5388	MATCH
+S1_depth	median_depth	2107.5	
+S1_depth	depth_target_pos_vs_neg	4141 vs 1990	
+S1_depth	depth_vs_age_per_nucleus	rho=-0.033; p=0.016	if positive, deeper nuclei in older donors would inflate the raw fraction
+S1_depth	PGR_raw	rho=+0.707; p=4.7e-11	uncontrolled, for comparison
+S1_depth	depth1000_nuclei	4519 of 5388 (84%)	
+S1_depth	depth1000_PGR	rho=+0.711; p=0.0000; donors=61	TARGET
+S1_depth	depth1000_NR3C1	rho=+0.159; p=0.2195	other_receptor
+S1_depth	depth1000_NR3C2	rho=+0.409; p=0.0011	other_receptor
+S1_depth	depth1000_ESR1	rho=+0.045; p=0.7309	other_receptor
+S1_depth	depth1000_AR	rho=-0.195; p=0.1327	other_receptor
+S1_depth	depth1000_GPER1	rho=+0.094; p=0.4721	other_receptor
+S1_depth	depth1000_ACTB	rho=+0.020; p=0.8756	housekeeping
+S1_depth	depth1000_GAPDH	rho=+0.126; p=0.3331	housekeeping
+S1_depth	depth1000_RPL13A	rho=+0.020; p=0.8762	housekeeping
+S1_depth	depth1000_RPLP0	rho=-0.095; p=0.4657	housekeeping
+S1_depth	depth1000_TBP	rho=-0.093; p=0.4756	housekeeping
+S1_depth	depth1000_PGK1	rho=+0.050; p=0.7046	housekeeping
+S1_depth	depth1000_PECAM1	rho=-0.005; p=0.9708	identity
+S1_depth	depth1000_CLDN5	rho=-0.067; p=0.6075	identity
+S1_depth	depth1000_FLT1	rho=+0.077; p=0.5553	identity
+S1_depth	depth1000_PGR-AS1	rho=+0.653; p=0.0000	extra
+S1_depth	depth1000_ZNF385B	rho=+0.735; p=0.0000	extra
+S1_depth	depth1000_PAQR5	rho=-0.084; p=0.5205	extra
+S1_depth	depth1000_ABCB1	rho=-0.079; p=0.5466	extra
+S1_depth	depth1000_controls_matching_target	1	ZNF385B(extra)
+S1_depth	depth1500_nuclei	3552 of 5388 (66%)	
+S1_depth	depth1500_PGR	rho=+0.772; p=0.0000; donors=54	TARGET
+S1_depth	depth1500_NR3C1	rho=+0.042; p=0.7604	other_receptor
+S1_depth	depth1500_NR3C2	rho=+0.436; p=0.0010	other_receptor
+S1_depth	depth1500_ESR1	rho=-0.074; p=0.5963	other_receptor
+S1_depth	depth1500_AR	rho=-0.446; p=0.0007	other_receptor
+S1_depth	depth1500_GPER1	rho=+0.069; p=0.6212	other_receptor
+S1_depth	depth1500_ACTB	rho=+0.024; p=0.8629	housekeeping
+S1_depth	depth1500_GAPDH	rho=+0.109; p=0.4327	housekeeping
+S1_depth	depth1500_RPL13A	rho=-0.060; p=0.6670	housekeeping
+S1_depth	depth1500_RPLP0	rho=-0.154; p=0.2674	housekeeping
+S1_depth	depth1500_TBP	rho=-0.094; p=0.4996	housekeeping
+S1_depth	depth1500_PGK1	rho=+0.066; p=0.6358	housekeeping
+S1_depth	depth1500_PECAM1	rho=+0.058; p=0.6750	identity
+S1_depth	depth1500_CLDN5	rho=-0.009; p=0.9468	identity
+S1_depth	depth1500_FLT1	rho=+0.204; p=0.1398	identity
+S1_depth	depth1500_PGR-AS1	rho=+0.743; p=0.0000	extra
+S1_depth	depth1500_ZNF385B	rho=+0.713; p=0.0000	extra
+S1_depth	depth1500_PAQR5	rho=+0.096; p=0.4902	extra
+S1_depth	depth1500_ABCB1	rho=-0.150; p=0.2791	extra
+S1_depth	depth1500_controls_matching_target	0	none
+S1_depth	depth2000_nuclei	2825 of 5388 (52%)	
+S1_depth	depth2000_PGR	rho=+0.793; p=0.0000; donors=52	TARGET
+S1_depth	depth2000_NR3C1	rho=+0.111; p=0.4350	other_receptor
+S1_depth	depth2000_NR3C2	rho=+0.367; p=0.0075	other_receptor
+S1_depth	depth2000_ESR1	rho=-0.251; p=0.0725	other_receptor
+S1_depth	depth2000_AR	rho=-0.446; p=0.0009	other_receptor
+S1_depth	depth2000_GPER1	rho=+0.038; p=0.7866	other_receptor
+S1_depth	depth2000_ACTB	rho=-0.034; p=0.8103	housekeeping
+S1_depth	depth2000_GAPDH	rho=+0.169; p=0.2311	housekeeping
+S1_depth	depth2000_RPL13A	rho=-0.074; p=0.6011	housekeeping
+S1_depth	depth2000_RPLP0	rho=-0.132; p=0.3496	housekeeping
+S1_depth	depth2000_TBP	rho=-0.259; p=0.0634	housekeeping
+S1_depth	depth2000_PGK1	rho=+0.066; p=0.6409	housekeeping
+S1_depth	depth2000_PECAM1	rho=+0.016; p=0.9077	identity
+S1_depth	depth2000_CLDN5	rho=-0.013; p=0.9289	identity
+S1_depth	depth2000_FLT1	rho=+0.195; p=0.1649	identity
+S1_depth	depth2000_PGR-AS1	rho=+0.548; p=0.0000	extra
+S1_depth	depth2000_ZNF385B	rho=+0.724; p=0.0000	extra
+S1_depth	depth2000_PAQR5	rho=-0.039; p=0.7859	extra
+S1_depth	depth2000_ABCB1	rho=-0.062; p=0.6617	extra
+S1_depth	depth2000_controls_matching_target	0	none
+S1_depth	depth3000_nuclei	1876 of 5388 (35%)	
+S1_depth	depth3000_PGR	rho=+0.789; p=0.0000; donors=37	TARGET
+S1_depth	depth3000_NR3C1	rho=+0.337; p=0.0415	other_receptor
+S1_depth	depth3000_NR3C2	rho=+0.522; p=0.0009	other_receptor
+S1_depth	depth3000_ESR1	rho=-0.166; p=0.3271	other_receptor
+S1_depth	depth3000_AR	rho=-0.349; p=0.0345	other_receptor
+S1_depth	depth3000_GPER1	rho=-0.144; p=0.3952	other_receptor
+S1_depth	depth3000_ACTB	rho=-0.281; p=0.0919	housekeeping
+S1_depth	depth3000_GAPDH	rho=-0.037; p=0.8279	housekeeping
+S1_depth	depth3000_RPL13A	rho=-0.110; p=0.5168	housekeeping
+S1_depth	depth3000_RPLP0	rho=-0.179; p=0.2900	housekeeping
+S1_depth	depth3000_TBP	rho=+0.150; p=0.3750	housekeeping
+S1_depth	depth3000_PGK1	rho=-0.143; p=0.3969	housekeeping
+S1_depth	depth3000_PECAM1	rho=-0.028; p=0.8683	identity
+S1_depth	depth3000_CLDN5	rho=-0.386; p=0.0182	identity
+S1_depth	depth3000_FLT1	rho=+0.080; p=0.6362	identity
+S1_depth	depth3000_PGR-AS1	rho=+0.773; p=0.0000	extra
+S1_depth	depth3000_ZNF385B	rho=+0.807; p=0.0000	extra
+S1_depth	depth3000_PAQR5	rho=-0.173; p=0.3059	extra
+S1_depth	depth3000_ABCB1	rho=+0.103; p=0.5435	extra
+S1_depth	depth3000_controls_matching_target	1	ZNF385B(extra)
+S2_markers	arterial	6 of 6	GJA5; SEMA3G; HEY1; ALPL; VEGFC; BMX
+S2_markers	capillary	5 of 5	MFSD2A; SLC7A5; TFRC; SLC16A1; RGCC
+S2_markers	venous	5 of 5	NR2F2; VWF; ACKR1; PLVAP; IL1R1
+S2_assignment	arterial	1138 (21.1%)	
+S2_assignment	capillary	1877 (34.8%)	
+S2_assignment	venous	1177 (21.8%)	
+S2_assignment	unassigned	1196 (22.2%)	
+S2_gate	arterial	top=arterial; arterial=2.622; capillary=0.479; venous=0.319	PASS
+S2_gate	capillary	top=capillary; arterial=3.739; capillary=10.106; venous=3.938	PASS
+S2_gate	venous	top=venous; arterial=0.963; capillary=1.130; venous=3.628	PASS
+S2_gate	segment_labelling_recovered	True	
+S2a_composition	arterial	rho=+0.303; p=0.0141; donors=65; share 0.00 to 0.40	COMPOSITION SHIFT
+S2a_composition	capillary	rho=-0.454; p=0.0001; donors=65; share 0.01 to 0.70	COMPOSITION SHIFT
+S2a_composition	venous	rho=+0.351; p=0.0042; donors=65; share 0.00 to 0.69	COMPOSITION SHIFT
+S2b_within_segment	arterial	expr rho=+0.629 p=0.0001; pct_pos rho=+0.574 p=0.0004; donors=34; nuclei=1020	
+S2b_within_segment	capillary	expr rho=+0.660 p=0.0000; pct_pos rho=+0.645 p=0.0000; donors=44; nuclei=1748	
+S2b_within_segment	venous	expr rho=+0.758 p=0.0000; pct_pos rho=+0.741 p=0.0000; donors=35; nuclei=1033	
+S2c_pos_vs_neg	share_arterial	PGR+ 18.2%; PGR- 21.4%	n_pos=457, n_neg=4931
+S2c_pos_vs_neg	share_capillary	PGR+ 33.9%; PGR- 34.9%	n_pos=457, n_neg=4931
+S2c_pos_vs_neg	share_venous	PGR+ 26.9%; PGR- 21.4%	n_pos=457, n_neg=4931
+S2c_pos_vs_neg	chi2_segment_by_PGR_status	chi2=7.87; p=0.01958; dof=2	
+S3_labels	microglia_label	Micro/PVM	
+S3_labels	astrocyte_label	Astro	
+S3_astrocyte	cells	68387	
+S3_astrocyte	donors	79	
+S3_astrocyte	complement_pruning_module	rho=+0.080; p=0.4863; genes=14; donors=78	C1QA; C1QB; C1QC; C3; C4A; C4B; ITGAM; CX3CR1
+S3_astrocyte	allopregnanolone_target_module	rho=+0.463; p=0.0000; genes=11; donors=78	GABRA1; GABRA2; GABRA3; GABRA4; GABRA5; GABRB1; GABRB2; GABRB3
+S3_astrocyte	housekeeping_module_CONTROL	rho=-0.166; p=0.1472; genes=6; donors=78	ACTB; GAPDH; RPL13A; RPLP0; TBP; PGK1
+S3_astrocyte	pruning_exceeds_housekeeping	False	|+0.080| vs |-0.166|; if False the technical axis dominates
+S3_astrocyte	allo_target_exceeds_housekeeping	True	|+0.463| vs |-0.166|; if False the technical axis dominates
+S3_astrocyte_gene	C1QA	rho=-0.134; p=0.2423	
+S3_astrocyte_gene	C3	rho=+0.187; p=0.1014	
+S3_astrocyte_gene	TREM2	rho=-0.167; p=0.1433	
+S3_astrocyte_gene	P2RY12	rho=+0.074; p=0.5169	
+S3_astrocyte_gene	TLR4	rho=+0.737; p=0.0000	
+S3_astrocyte_gene	GABRB1	rho=+0.312; p=0.0054	
+S3_microglia	cells	23846	
+S3_microglia	donors	76	
+S3_microglia	complement_pruning_module	rho=-0.049; p=0.6800; genes=14; donors=72	C1QA; C1QB; C1QC; C3; C4A; C4B; ITGAM; CX3CR1
+S3_microglia	allopregnanolone_target_module	rho=-0.183; p=0.1237; genes=11; donors=72	GABRA1; GABRA2; GABRA3; GABRA4; GABRA5; GABRB1; GABRB2; GABRB3
+S3_microglia	housekeeping_module_CONTROL	rho=-0.161; p=0.1779; genes=6; donors=72	ACTB; GAPDH; RPL13A; RPLP0; TBP; PGK1
+S3_microglia	pruning_exceeds_housekeeping	False	|-0.049| vs |-0.161|; if False the technical axis dominates
+S3_microglia	allo_target_exceeds_housekeeping	True	|-0.183| vs |-0.161|; if False the technical axis dominates
+S3_microglia_gene	C1QA	rho=-0.063; p=0.5995	
+S3_microglia_gene	C3	rho=+0.082; p=0.4954	
+S3_microglia_gene	TREM2	rho=-0.127; p=0.2886	
+S3_microglia_gene	P2RY12	rho=+0.071; p=0.5561	
+S3_microglia_gene	TLR4	rho=-0.293; p=0.0124	
+S3_microglia_gene	GABRB1	rho=-0.124; p=0.2990	
+limits	mixed_assay	the atlas mixes snRNA-seq and scRNA-seq	reported above as datatype_mix; detection floors differ between them
+limits	source	Venkatesan et al. 2026 consensus atlas, bioRxiv 10.64898/2026.07.16.738788	an unpublished preprint; the manuscript's data statement names a different file
+limits	seed	2026	

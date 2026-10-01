@@ -1,0 +1,43 @@
+axis	key	value	note
+meta	snapshot	1762972271	
+meta	seed	2026	
+meta	null_size_drawn	250	per organism
+meta	tissues_with_usable_null	21	a tissue needs at least twenty null genes scored
+tissue	question	Is the endothelial bias a property of brain, or does it hold wherever the corpus has endothelium?	
+tissue	positive_control	2 of 2 identity genes place endothelium in the top tenth of their own ranking in brain: CLDN5=0.010, PECAM1=0.010	
+tissue	tissues_scanned	21	
+tissue	tissues_testable	13	an endothelial cell type was scored for the target
+tissue	tissues_endothelial_biased	2 of 13	
+tissue	eye	rank=0.012 p=0.026 null=115 cell_types=109	biased
+tissue	brain	rank=0.049 p=0.036 null=109 cell_types=109	biased
+tissue	heart	rank=0.167 p=0.347 null=123 cell_types=58	
+tissue	placenta	rank=0.226 p=0.132 null=67 cell_types=31	
+tissue	kidney	rank=0.255 p=0.160 null=93 cell_types=72	
+tissue	musculature	rank=0.270 p=0.146 null=81 cell_types=44	
+tissue	lymph node	rank=0.345 p=0.270 null=88 cell_types=57	
+tissue	liver	rank=0.424 p=0.511 null=93 cell_types=57	
+tissue	breast	rank=0.565 p=0.440 null=99 cell_types=65	
+tissue	lung	rank=0.569 p=0.655 null=109 cell_types=111	
+tissue	ovary	rank=0.643 p=0.492 null=62 cell_types=19	
+tissue	adipose tissue	rank=0.667 p=0.697 null=98 cell_types=40	
+tissue	skin of body	rank=0.725 p=0.487 null=77 cell_types=54	
+tissue	reading	a bias confined to a few tissues supports a claim about the brain wall; a bias in every tissue would mean the brain result is about the gene, not about brain	
+tissue	limit	Each tissue has its own baseline and its own contributing datasets, so tissues are compared on the rank statistic and never on the specificity value. A tissue where no endothelial cell type was scored is reported as untestable.	
+species	question	The manuscript separates human from rodent on cell type and cites rodent reports. Does the corpus mouse data agree?	
+species	positive_control	2 of 2 mouse identity genes in the top tenth: Cldn5=0.017, Pecam1=0.017	
+species	mouse_null_size	79	resolution 1/80
+species	mouse_null_median	0.660	
+species	mouse_cell_types	59	
+species	Pgr::endothelial_rank_fraction	0.737	p=0.650
+species	Pgr::top_cell_type	neuron	
+species	human_for_comparison	0.049	same statistic, human brain
+species	Gper1::endothelial_rank	0.149	
+species	Nr3c1::endothelial_rank	0.373	
+species	Nr3c2::endothelial_rank	0.492	
+species	Esr1::endothelial_rank	0.707	
+species	Ar::endothelial_rank	0.763	
+species	reading	a mouse rank far from the human one measures the species difference the manuscript currently cites; an unscored mouse target measures the corpus, not the mouse	
+species	limit	Mouse coverage in the corpus is smaller and its brain datasets differ in age and assay from the human ones. This compares where the transcript sits in each species, not when it appears, and an absence in mouse bounded by low coverage is reported as such.	
+disease	question	Does the endothelial bias survive in diseased tissue, and how much of any shift is technical?	
+disease	positive_control	identity genes scored in 0 of 4 disease subsets	
+disease	verdict	SCAN INVALID	positive control failed; no statement about the target

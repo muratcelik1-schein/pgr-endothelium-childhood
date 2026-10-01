@@ -1,0 +1,25 @@
+null_size	key	value	note
+40	corpus_profile/PGR::best_endothelial_rank	4	
+40	corpus_profile/PGR::n_cell_types	90	
+40	corpus_profile/PGR::top3	mesothelial fibroblast=0.90; vascular leptomeningeal cell=0.90; fibroblast=0.86	
+40	corpus_profile/positive_control	2 of 2 endothelial · CLDN5 top=endothelial cell · PECAM1 top=blood vessel endothelial cell	
+40	programme/PGR::endothelial_rank_fraction	absent	
+40	programme/null_size	absent	
+40	programme/null_rank_median	absent	
+40	meta/brain_cell_types_scored	132	
+100	corpus_profile/PGR::best_endothelial_rank	4	
+100	corpus_profile/PGR::n_cell_types	87	
+100	corpus_profile/PGR::top3	mesothelial fibroblast=1.26; vascular leptomeningeal cell=1.26; fibroblast=1.25	
+100	corpus_profile/positive_control	2 of 2 endothelial · CLDN5 top=endothelial cell · PECAM1 top=endothelial cell	
+100	programme/PGR::endothelial_rank_fraction	0.046	
+100	programme/null_size	49	
+100	programme/null_rank_median	0.667	
+100	meta/brain_cell_types_scored	117	
+250	corpus_profile/PGR::best_endothelial_rank	1	
+250	corpus_profile/PGR::n_cell_types	84	
+250	corpus_profile/PGR::top3	endothelial cell=1.36; epithelial cell=1.22; fibroblast=1.11	
+250	corpus_profile/positive_control	2 of 2 endothelial · CLDN5 top=endothelial cell · PECAM1 top=endothelial cell	
+250	programme/PGR::endothelial_rank_fraction	0.012	
+250	programme/null_size	114	
+250	programme/null_rank_median	0.533	
+250	meta/brain_cell_types_scored	107	

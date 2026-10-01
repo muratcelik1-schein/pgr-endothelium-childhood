@@ -1,0 +1,118 @@
+block	key	value	note
+meta	endothelial_label	endothelial cell	discovered, not assumed
+meta	n_cell_type	11	GABAergic neuron; astrocyte; endothelial cell; ependymal cell; glutamatergic neuron; microglial cell; oligodendrocyte; oligodendrocyte precursor cell; pericyte; perivascular cell; vascular leptomeningeal cell
+meta	n_donor_total	10	
+meta	stages	14-year-old stage; 20-year-old stage; 39-year-old stage; 4-year-old stage; 6-year-old stage; 61-year-old stage; 62-year-old stage; infant stage	
+meta	tissues	anterior cingulate cortex; caudate nucleus; dorsolateral prefrontal cortex; hippocampal formation	
+meta	stage_to_age	{"infant stage": 1.0, "4-year-old stage": 4.0, "6-year-old stage": 6.0, "14-year-old stage": 14.0, "20-year-old stage": 20.0, "39-year-old stage": 39.0, "61-year-old stage": 61.0, "62-year-old stage": 62.0}	infant placed at 1.0 for ordering only; no exact age is claimed
+meta	n_nucleus_total	101924	
+meta	median_counts_per_nucleus	4790.0	
+gate_identity	PECAM1	top=endothelial cell; endo=3.5936; next=1.4246	PASS
+gate_identity	CLDN5	top=endothelial cell; endo=7.1863; next=0.1803	PASS
+gate_identity	FLT1	top=endothelial cell; endo=52.3199; next=0.7459	PASS
+gate_identity	VWF	top=endothelial cell; endo=7.3572; next=0.0754	PASS
+gate_identity	all_identity_markers_peak_in_endothelium	True	if False the cell type labelling is not recovered and no PGR result follows
+cortex	n_donor_retained	10	threshold 10 endothelial nuclei per donor
+cortex	donors	postnatB_1=4-year-old stage(n=405); postnatB_2=39-year-old stage(n=69); postnatB_3=infant stage(n=65); postnatB_4=61-year-old stage(n=93); postnatB_5=14-year-old stage(n=200); postnatB_6=14-year-old stage(n=353); postnatB_7=62-year-old stage(n=171); postnatB_8=20-year-old stage(n=18); postnatB_9=6-year-old stage(n=223); postnatB_10=infant stage(n=202)	
+cortex	age_range_used	1.0 to 62.0	infant ordered at 1.0
+cortex	total_endothelial_nuclei	1799	
+cortex_expr	PGR	rho=+0.636; p=0.0480; rho_pct_pos=+0.703; p=0.0232	target
+cortex_expr	NR3C1	rho=+0.024; p=0.9467; rho_pct_pos=-0.317; p=0.3720	other_receptor
+cortex_expr	NR3C2	rho=+0.213; p=0.5538; rho_pct_pos=-0.110; p=0.7628	other_receptor
+cortex_expr	ESR1	rho=-0.391; p=0.2633; rho_pct_pos=-0.122; p=0.7364	other_receptor
+cortex_expr	AR	rho=-0.636; p=0.0480; rho_pct_pos=-0.728; p=0.0170	other_receptor
+cortex_expr	GPER1	rho=-0.364; p=0.3008; rho_pct_pos=-0.333; p=0.3466	other_receptor
+cortex_expr	ACTB	rho=-0.720; p=0.0190; rho_pct_pos=-0.848; p=0.0020	housekeeping
+cortex_expr	GAPDH	rho=+0.018; p=0.9600; rho_pct_pos=-0.579; p=0.0793	housekeeping
+cortex_expr	RPL13A	rho=-0.177; p=0.6250; rho_pct_pos=-0.494; p=0.1468	housekeeping
+cortex_expr	RPLP0	rho=-0.421; p=0.2260; rho_pct_pos=-0.610; p=0.0612	housekeeping
+cortex_expr	TBP	rho=+0.720; p=0.0190; rho_pct_pos=+0.189; p=0.6010	housekeeping
+cortex_expr	PGK1	rho=-0.463; p=0.1774; rho_pct_pos=-0.543; p=0.1050	housekeeping
+cortex_expr	PECAM1	rho=-0.043; p=0.9068; rho_pct_pos=-0.299; p=0.4017	identity
+cortex_expr	CLDN5	rho=-0.378; p=0.2814; rho_pct_pos=-0.494; p=0.1468	identity
+cortex_expr	FLT1	rho=-0.524; p=0.1197; rho_pct_pos=-0.366; p=0.2985	identity
+cortex_expr	VWF	rho=+0.671; p=0.0338; rho_pct_pos=-0.085; p=0.8146	identity
+cortex_expr	PGR-AS1	rho=+0.746; p=0.0132; rho_pct_pos=+0.685; p=0.0288	extra
+cortex_expr	PAQR5	rho=-0.366; p=0.2985; rho_pct_pos=-0.494; p=0.1468	extra
+cortex_expr	ZNF385B	rho=+0.665; p=0.0360; rho_pct_pos=+0.701; p=0.0239	extra
+cortex_expr	ABCB1	rho=-0.232; p=0.5195; rho_pct_pos=-0.311; p=0.3818	extra
+cortex_contrast	PGR	young 52/895=5.81% [4.37,7.55]; old 78/351=22.22% [17.98,26.94]; fisher_p=1.24e-15; expr_fold=4.08	donors <=6y vs >=20y
+cortex_contrast	ACTB	young 592/895=66.15% [62.94,69.24]; old 142/351=40.46% [35.28,45.80]; fisher_p=2.29e-16; expr_fold=0.51	donors <=6y vs >=20y
+cortex_contrast	GAPDH	young 348/895=38.88% [35.67,42.16]; old 112/351=31.91% [27.06,37.07]; fisher_p=0.0225; expr_fold=1.06	donors <=6y vs >=20y
+cortex_contrast	NR3C1	young 672/895=75.08% [72.11,77.89]; old 229/351=65.24% [60.01,70.22]; fisher_p=0.000564; expr_fold=0.82	donors <=6y vs >=20y
+cortex_contrast	NR3C2	young 560/895=62.57% [59.31,65.75]; old 243/351=69.23% [64.11,74.02]; fisher_p=0.0299; expr_fold=1.04	donors <=6y vs >=20y
+cortex_doublet	PDGFRB	PGR+ 0.1645; PGR- 0.1505	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	RGS5	PGR+ 0.8360; PGR- 0.6589	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	ACTA2	PGR+ 0.1439; PGR- 0.0808	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	DCN	PGR+ 0.1439; PGR- 0.0523	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	PECAM1	PGR+ 3.4606; PGR- 3.2422	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	CLDN5	PGR+ 5.5849; PGR- 7.8639	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	FLT1	PGR+ 40.9378; PGR- 55.9390	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	VWF	PGR+ 8.2026; PGR- 6.3624	mural signal higher in PGR+ would indicate doublets
+cortex_doublet	n_PGR_positive_endothelial_nuclei	239	
+cortex_doublet	median_depth_PGR_pos_vs_neg	4981 vs 2852	a depth difference would confound the positive fraction
+cortex_celltype	ependymal cell	PGR=0.0000; pct_pos=0.00; n=60	
+cortex_celltype	endothelial cell	PGR=0.5686; pct_pos=13.29; n=1799	
+cortex_celltype	astrocyte	PGR=0.0025; pct_pos=0.13; n=10318	
+cortex_celltype	oligodendrocyte	PGR=0.0015; pct_pos=0.07; n=15265	
+cortex_celltype	microglial cell	PGR=0.0018; pct_pos=0.04; n=4481	
+cortex_celltype	GABAergic neuron	PGR=0.0038; pct_pos=0.38; n=7542	
+cortex_celltype	pericyte	PGR=0.3508; pct_pos=10.27; n=1402	
+cortex_celltype	glutamatergic neuron	PGR=0.0013; pct_pos=0.13; n=7526	
+cortex_celltype	oligodendrocyte precursor cell	PGR=0.0094; pct_pos=0.53; n=8546	
+cortex_celltype	vascular leptomeningeal cell	PGR=0.4422; pct_pos=8.21; n=804	
+cortex_celltype	perivascular cell	PGR=0.0019; pct_pos=0.04; n=2236	
+all_regions	n_donor_retained	10	threshold 10 endothelial nuclei per donor
+all_regions	donors	postnatB_1=4-year-old stage(n=475); postnatB_2=39-year-old stage(n=138); postnatB_3=infant stage(n=125); postnatB_4=61-year-old stage(n=196); postnatB_5=14-year-old stage(n=322); postnatB_6=14-year-old stage(n=454); postnatB_7=62-year-old stage(n=214); postnatB_8=20-year-old stage(n=44); postnatB_9=6-year-old stage(n=240); postnatB_10=infant stage(n=268)	
+all_regions	age_range_used	1.0 to 62.0	infant ordered at 1.0
+all_regions	total_endothelial_nuclei	2476	
+all_regions_expr	PGR	rho=+0.671; p=0.0338; rho_pct_pos=+0.811; p=0.0044	target
+all_regions_expr	NR3C1	rho=+0.030; p=0.9334; rho_pct_pos=-0.177; p=0.6250	other_receptor
+all_regions_expr	NR3C2	rho=+0.348; p=0.3251; rho_pct_pos=+0.409; p=0.2411	other_receptor
+all_regions_expr	ESR1	rho=+0.030; p=0.9334; rho_pct_pos=+0.128; p=0.7244	other_receptor
+all_regions_expr	AR	rho=-0.752; p=0.0121; rho_pct_pos=-0.697; p=0.0250	other_receptor
+all_regions_expr	GPER1	rho=+0.506; p=0.1355; rho_pct_pos=+0.195; p=0.5890	other_receptor
+all_regions_expr	ACTB	rho=-0.744; p=0.0136; rho_pct_pos=-0.640; p=0.0461	housekeeping
+all_regions_expr	GAPDH	rho=-0.439; p=0.2043; rho_pct_pos=-0.567; p=0.0873	housekeeping
+all_regions_expr	RPL13A	rho=-0.287; p=0.4221; rho_pct_pos=-0.073; p=0.8408	housekeeping
+all_regions_expr	RPLP0	rho=-0.598; p=0.0681; rho_pct_pos=-0.750; p=0.0125	housekeeping
+all_regions_expr	TBP	rho=+0.427; p=0.2186; rho_pct_pos=+0.085; p=0.8146	housekeeping
+all_regions_expr	PGK1	rho=-0.646; p=0.0435; rho_pct_pos=-0.421; p=0.2260	housekeeping
+all_regions_expr	PECAM1	rho=-0.043; p=0.9068; rho_pct_pos=-0.213; p=0.5538	identity
+all_regions_expr	CLDN5	rho=-0.470; p=0.1710; rho_pct_pos=-0.445; p=0.1974	identity
+all_regions_expr	FLT1	rho=-0.561; p=0.0916; rho_pct_pos=-0.433; p=0.2114	identity
+all_regions_expr	VWF	rho=+0.610; p=0.0612; rho_pct_pos=+0.274; p=0.4429	identity
+all_regions_expr	PGR-AS1	rho=+0.789; p=0.0067; rho_pct_pos=+0.765; p=0.0100	extra
+all_regions_expr	PAQR5	rho=-0.244; p=0.4971; rho_pct_pos=-0.433; p=0.2114	extra
+all_regions_expr	ZNF385B	rho=+0.665; p=0.0360; rho_pct_pos=+0.677; p=0.0316	extra
+all_regions_expr	ABCB1	rho=-0.012; p=0.9733; rho_pct_pos=-0.079; p=0.8277	extra
+all_regions_contrast	PGR	young 65/1108=5.87% [4.56,7.42]; old 125/592=21.11% [17.89,24.63]; fisher_p=3.28e-20; expr_fold=3.36	donors <=6y vs >=20y
+all_regions_contrast	ACTB	young 740/1108=66.79% [63.93,69.56]; old 287/592=48.48% [44.39,52.59]; fisher_p=2.65e-13; expr_fold=0.49	donors <=6y vs >=20y
+all_regions_contrast	GAPDH	young 443/1108=39.98% [37.08,42.93]; old 191/592=32.26% [28.51,36.20]; fisher_p=0.00189; expr_fold=0.72	donors <=6y vs >=20y
+all_regions_contrast	NR3C1	young 840/1108=75.81% [73.18,78.31]; old 420/592=70.95% [67.11,74.58]; fisher_p=0.0315; expr_fold=0.94	donors <=6y vs >=20y
+all_regions_contrast	NR3C2	young 705/1108=63.63% [60.72,66.47]; old 426/592=71.96% [68.15,75.55]; fisher_p=0.00055; expr_fold=1.39	donors <=6y vs >=20y
+all_regions_doublet	PDGFRB	PGR+ 0.1304; PGR- 0.1314	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	RGS5	PGR+ 0.5707; PGR- 0.5608	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	ACTA2	PGR+ 0.1182; PGR- 0.0951	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	DCN	PGR+ 0.0938; PGR- 0.0470	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	PECAM1	PGR+ 3.7174; PGR- 3.5611	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	CLDN5	PGR+ 5.9511; PGR- 7.5099	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	FLT1	PGR+ 47.8863; PGR- 53.4816	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	VWF	PGR+ 8.1441; PGR- 7.1510	mural signal higher in PGR+ would indicate doublets
+all_regions_doublet	n_PGR_positive_endothelial_nuclei	354	
+all_regions_doublet	median_depth_PGR_pos_vs_neg	5714 vs 3077	a depth difference would confound the positive fraction
+all_regions_celltype	ependymal cell	PGR=0.1057; pct_pos=5.26; n=456	
+all_regions_celltype	endothelial cell	PGR=0.5687; pct_pos=14.30; n=2476	
+all_regions_celltype	astrocyte	PGR=0.0134; pct_pos=0.67; n=19071	
+all_regions_celltype	oligodendrocyte	PGR=0.0018; pct_pos=0.09; n=33143	
+all_regions_celltype	microglial cell	PGR=0.0012; pct_pos=0.03; n=6410	
+all_regions_celltype	GABAergic neuron	PGR=0.0040; pct_pos=0.40; n=8941	
+all_regions_celltype	pericyte	PGR=0.3620; pct_pos=11.19; n=1930	
+all_regions_celltype	glutamatergic neuron	PGR=0.0013; pct_pos=0.15; n=9869	
+all_regions_celltype	oligodendrocyte precursor cell	PGR=0.0131; pct_pos=0.75; n=14090	
+all_regions_celltype	vascular leptomeningeal cell	PGR=0.4658; pct_pos=9.63; n=986	
+all_regions_celltype	perivascular cell	PGR=0.0015; pct_pos=0.04; n=4552	
+limits	modality	RNA only	the chromatin modality is not in this file; accessibility is untested here
+limits	infant_stage	no exact age	ordered below the 4-year stage; Spearman uses rank only
+limits	donor_overlap	not verified here	donor identifiers differ from the primary series but overlap was not formally excluded
+limits	seed	2026	

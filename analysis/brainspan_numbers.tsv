@@ -1,0 +1,57 @@
+block	key	value	note
+meta	source	BrainSpan RNA-Seq gene RPKM, Gencode v10	
+meta	samples_total	524	
+meta	donors_total	42	
+meta	panel_missing	none	absent from this build; dropped with a note, not silently
+meta	samples_postnatal	287	
+meta	donors_postnatal	22	
+meta	age_range_years	0.33 to 40	
+meta	n_distinct_ages	18	
+gate	MBP_vs_age	rho=+0.312 p=6.54e-08 n=287	
+gate	verdict	scan works	
+negative_control	ACTB_vs_age	rho=-0.179 p=0.00234	flat
+negative_control	GAPDH_vs_age	rho=+0.006 p=0.92	flat
+negative_control	TBP_vs_age	rho=-0.030 p=0.611	flat
+negative_control	all_flat	True	if false, read every association below as partly technical
+pooled	PGR	rho=+0.707 p=1.01e-44 holm=1.31e-43 n=287	
+pooled	CLDN5	rho=-0.511 p=1.76e-20 holm=1.76e-19 n=287	
+pooled	FLT1	rho=-0.105 p=0.0764 holm=0.382 n=287	
+pooled	VWF	rho=-0.043 p=0.47 holm=0.572 n=287	
+pooled	NR3C1	rho=+0.284 p=9.78e-07 holm=8.81e-06 n=287	
+pooled	NR3C2	rho=+0.546 p=1.01e-23 holm=1.11e-22 n=287	
+pooled	ESR1	rho=+0.097 p=0.1 holm=0.401 n=287	
+pooled	AR	rho=-0.088 p=0.137 holm=0.41 n=287	
+pooled	ABCB1	rho=-0.208 p=0.000402 holm=0.00282 n=287	
+pooled	SNAP25	rho=+0.594 p=1.01e-28 holm=1.21e-27 n=287	
+pooled	GFAP	rho=+0.063 p=0.286 holm=0.572 n=287	
+pooled	HSD3B2	rho=+0.275 p=2.3e-06 holm=1.84e-05 n=287	
+pooled	AKR1C1	rho=+0.121 p=0.0411 holm=0.247 n=287	
+vessel_or_transcript	target_rho	+0.707	
+vessel_or_transcript	endothelial_rhos	CLDN5=-0.511; FLT1=-0.105; VWF=-0.043	
+vessel_or_transcript	identity_gene_ceiling	+0.511	largest absolute age association among the identity genes
+vessel_or_transcript	target_exceeds_ceiling	True	if true, the rise is not explained by more vessel in the sample
+ratio	PGR_over_CLDN5	rho=+0.779 p=1.28e-59 n=287	target normalised per sample to an identity gene
+ratio	PGR_over_FLT1	rho=+0.706 p=1.17e-44 n=287	target normalised per sample to an identity gene
+ratio	PGR_over_VWF	rho=+0.649 p=1.01e-35 n=287	target normalised per sample to an identity gene
+structure	structures_scored	16 of 16	a structure needs at least 8 postnatal samples
+structure	A1C	rho=+0.592 p=0.0123 holm=0.0493 n=17	
+structure	AMY	rho=+0.736 p=0.000326 holm=0.00353 n=19	
+structure	CBC	rho=+0.796 p=1.62e-05 holm=0.000243 n=21	cerebellum
+structure	DFC	rho=+0.714 p=0.000877 holm=0.00614 n=18	
+structure	HIP	rho=+0.438 p=0.0786 holm=0.0949 n=17	
+structure	IPC	rho=+0.598 p=0.00686 holm=0.0343 n=19	
+structure	ITC	rho=+0.781 p=2.96e-05 holm=0.000415 n=21	
+structure	M1C	rho=+0.502 p=0.0474 holm=0.0949 n=16	
+structure	MD	rho=+0.901 p=1.96e-06 holm=3.14e-05 n=16	
+structure	MFC	rho=+0.671 p=0.00318 holm=0.0191 n=17	
+structure	OFC	rho=+0.768 p=0.000321 holm=0.00353 n=17	
+structure	S1C	rho=+0.597 p=0.0146 holm=0.0493 n=16	
+structure	STC	rho=+0.726 p=0.00013 holm=0.00169 n=22	
+structure	STR	rho=+0.818 p=0.000345 holm=0.00353 n=14	
+structure	V1C	rho=+0.747 p=0.000365 holm=0.00353 n=18	
+structure	VFC	rho=+0.760 p=0.000161 holm=0.00193 n=19	
+cerebellum	cerebellar_structures	CBC=+0.796	
+cerebellum	non_cerebellar_median	+0.726	across 15 structures
+cerebellum	reading	a cerebellar association close to the cerebral one extends the finding to the cerebellum; a flat cerebellum bounds it to the cerebrum and is equally reportable	
+limit	bulk_tissue	BrainSpan is bulk tissue and carries no cell type resolution. It cannot show that the rise is endothelial; it can only show that it is not explained by the identity genes moving together with it	
+limit	donor_counts	postnatal donors are few per age band and each donor contributes many structures, so structures are not independent of one another	

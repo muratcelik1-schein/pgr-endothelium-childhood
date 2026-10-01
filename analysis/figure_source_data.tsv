@@ -1,0 +1,182 @@
+panel	quantity	observed	null_median	null_p95	null_max	study	n_donor	rho_within_study	genome_wide_rank_without_this_study	condition	rho	fixed_depth	gene	structure	rho_with_age	fold	zero_pct_band1	log2_amplitude	mean_counts_per_10k	direction	set_aside	segment	share_vs_age	expression_vs_age	positive_fraction_vs_age	value	cohort	pct_of_negative	pct_of_positive	band_from_conception	postnatal_years	ABCB1_counts_per_10k	PGR_counts_per_10k	schematic	track	node	partial_rho_with_PGR_age_removed	holm_p	source	rho_age
+Supplementary Fig 2b	strongest association among passing genes	0.68	0.349	0.466	0.605																																			
+Supplementary Fig 2c						velmeshev	31	0.625	0.0002																															
+Supplementary Fig 2c						herring	17	0.599	0.011																															
+Supplementary Fig 2c						wang	9	0.817	0.0072																															
+Supplementary Fig 2c						zhu	8	0.57	0.1404																															
+Supplementary Fig 5c										unadjusted	0.689																													
+Supplementary Fig 5c										depth, cells	0.624																													
+Supplementary Fig 5c										sex removed	0.678																													
+Supplementary Fig 5c										female, n=28	0.685																													
+Supplementary Fig 5c										male, n=37	0.697																													
+Supplementary Fig 5c										region removed	0.696																													
+Supplementary Fig 5c										PFC, n=28	0.709																													
+Supplementary Fig 5c										cingulate, n=12	0.492																													
+Supplementary Fig 5c										cortex, n=8	0.57																													
+Supplementary Fig 5c										STG, n=7	0.482																													
+Supplementary Fig 5c										V1, n=7	0.821																													
+Supplementary Fig 5a											0.711	1000	PGR																											
+Supplementary Fig 5a											0.772	1500	PGR																											
+Supplementary Fig 5a											0.793	2000	PGR																											
+Supplementary Fig 5a											0.789	3000	PGR																											
+Supplementary Fig 5a											0.159	1000	NR3C1																											
+Supplementary Fig 5a											0.042	1500	NR3C1																											
+Supplementary Fig 5a											0.111	2000	NR3C1																											
+Supplementary Fig 5a											0.337	3000	NR3C1																											
+Supplementary Fig 5a											0.409	1000	NR3C2																											
+Supplementary Fig 5a											0.436	1500	NR3C2																											
+Supplementary Fig 5a											0.367	2000	NR3C2																											
+Supplementary Fig 5a											0.522	3000	NR3C2																											
+Supplementary Fig 5a											0.045	1000	ESR1																											
+Supplementary Fig 5a											-0.074	1500	ESR1																											
+Supplementary Fig 5a											-0.251	2000	ESR1																											
+Supplementary Fig 5a											-0.166	3000	ESR1																											
+Supplementary Fig 5a											-0.195	1000	AR																											
+Supplementary Fig 5a											-0.446	1500	AR																											
+Supplementary Fig 5a											-0.446	2000	AR																											
+Supplementary Fig 5a											-0.349	3000	AR																											
+Supplementary Fig 5a											0.094	1000	GPER1																											
+Supplementary Fig 5a											0.069	1500	GPER1																											
+Supplementary Fig 5a											0.038	2000	GPER1																											
+Supplementary Fig 5a											-0.144	3000	GPER1																											
+Supplementary Fig 5a											0.02	1000	ACTB																											
+Supplementary Fig 5a											0.024	1500	ACTB																											
+Supplementary Fig 5a											-0.034	2000	ACTB																											
+Supplementary Fig 5a											-0.281	3000	ACTB																											
+Supplementary Fig 5a											0.126	1000	GAPDH																											
+Supplementary Fig 5a											0.109	1500	GAPDH																											
+Supplementary Fig 5a											0.169	2000	GAPDH																											
+Supplementary Fig 5a											-0.037	3000	GAPDH																											
+Supplementary Fig 5a											0.02	1000	RPL13A																											
+Supplementary Fig 5a											-0.06	1500	RPL13A																											
+Supplementary Fig 5a											-0.074	2000	RPL13A																											
+Supplementary Fig 5a											-0.11	3000	RPL13A																											
+Supplementary Fig 5a											-0.095	1000	RPLP0																											
+Supplementary Fig 5a											-0.154	1500	RPLP0																											
+Supplementary Fig 5a											-0.132	2000	RPLP0																											
+Supplementary Fig 5a											-0.179	3000	RPLP0																											
+Supplementary Fig 5a											-0.093	1000	TBP																											
+Supplementary Fig 5a											-0.094	1500	TBP																											
+Supplementary Fig 5a											-0.259	2000	TBP																											
+Supplementary Fig 5a											0.15	3000	TBP																											
+Supplementary Fig 5a											0.05	1000	PGK1																											
+Supplementary Fig 5a											0.066	1500	PGK1																											
+Supplementary Fig 5a											0.066	2000	PGK1																											
+Supplementary Fig 5a											-0.143	3000	PGK1																											
+Supplementary Fig 5a											-0.005	1000	PECAM1																											
+Supplementary Fig 5a											0.058	1500	PECAM1																											
+Supplementary Fig 5a											0.016	2000	PECAM1																											
+Supplementary Fig 5a											-0.028	3000	PECAM1																											
+Supplementary Fig 5a											-0.067	1000	CLDN5																											
+Supplementary Fig 5a											-0.009	1500	CLDN5																											
+Supplementary Fig 5a											-0.013	2000	CLDN5																											
+Supplementary Fig 5a											-0.386	3000	CLDN5																											
+Supplementary Fig 5a											0.077	1000	FLT1																											
+Supplementary Fig 5a											0.204	1500	FLT1																											
+Supplementary Fig 5a											0.195	2000	FLT1																											
+Supplementary Fig 5a											0.08	3000	FLT1																											
+Supplementary Fig 5a											0.653	1000	PGR-AS1																											
+Supplementary Fig 5a											0.743	1500	PGR-AS1																											
+Supplementary Fig 5a											0.548	2000	PGR-AS1																											
+Supplementary Fig 5a											0.773	3000	PGR-AS1																											
+Supplementary Fig 5a											0.735	1000	ZNF385B																											
+Supplementary Fig 5a											0.713	1500	ZNF385B																											
+Supplementary Fig 5a											0.724	2000	ZNF385B																											
+Supplementary Fig 5a											0.807	3000	ZNF385B																											
+Supplementary Fig 5a											-0.084	1000	PAQR5																											
+Supplementary Fig 5a											0.096	1500	PAQR5																											
+Supplementary Fig 5a											-0.039	2000	PAQR5																											
+Supplementary Fig 5a											-0.173	3000	PAQR5																											
+Supplementary Fig 5a											-0.079	1000	ABCB1																											
+Supplementary Fig 5a											-0.15	1500	ABCB1																											
+Supplementary Fig 5a											-0.062	2000	ABCB1																											
+Supplementary Fig 5a											0.103	3000	ABCB1																											
+Supplementary Fig 4d														HIP	0.438																									
+Supplementary Fig 4d														M1C	0.502																									
+Supplementary Fig 4d														A1C	0.592																									
+Supplementary Fig 4d														S1C	0.597																									
+Supplementary Fig 4d														IPC	0.598																									
+Supplementary Fig 4d														MFC	0.671																									
+Supplementary Fig 4d														DFC	0.714																									
+Supplementary Fig 4d														STC	0.726																									
+Supplementary Fig 4d														AMY	0.736																									
+Supplementary Fig 4d														V1C	0.747																									
+Supplementary Fig 4d														VFC	0.76																									
+Supplementary Fig 4d														OFC	0.768																									
+Supplementary Fig 4d														ITC	0.781																									
+Supplementary Fig 4d														CBC	0.796																									
+Supplementary Fig 4d														STR	0.818																									
+Supplementary Fig 4d														MD	0.901																									
+Supplementary Fig 4c	PGR														0.707																									
+Supplementary Fig 4c	CLDN5														-0.511																									
+Supplementary Fig 4c	FLT1														-0.105																									
+Supplementary Fig 4c	VWF														-0.043																									
+Supplementary Fig 4c	PGR / CLDN5														0.779																									
+Supplementary Fig 4c	PGR / FLT1														0.706																									
+Supplementary Fig 4c	PGR / VWF														0.649																									
+Supplementary Fig 3a													PGR			16.97	88																							
+Supplementary Fig 3a													NR3C1			0.97	0																							
+Supplementary Fig 3a													NR3C2			1.67	0																							
+Supplementary Fig 3a													ESR1			1.69	38																							
+Supplementary Fig 3a													AR			0.64	44																							
+Supplementary Fig 3a													GPER1			1.46	44																							
+Supplementary Fig 3a													PGR-AS1			9.37	69																							
+Supplementary Fig 3a													ZNF385B			13.41	12																							
+Supplementary Fig 3a													ABCB1			0.85	0																							
+Supplementary Fig 3a													AKR1C1			4.18	56																							
+Supplementary Fig 3a													AKR1C3			3.58	44																							
+Supplementary Fig 3b													SOX4					-1.4007	0.6053	falling																				
+Supplementary Fig 3b													TUSC3					-1.3738	1.4539	falling																				
+Supplementary Fig 3b													LAMB1					-0.6949	0.3224	falling																				
+Supplementary Fig 3b													APLNR					-0.6335	0.2108	falling																				
+Supplementary Fig 3b													COL1A1					-0.5674	0.1358	falling																				
+Supplementary Fig 3b													SLC1A4					-0.5508	0.2527	falling																				
+Supplementary Fig 3b													SLC14A1					-0.4828	0.11	falling																				
+Supplementary Fig 3b													COL3A1					-0.4675	0.1494	falling																				
+Supplementary Fig 3b													IGF2BP3					-0.2396	0.0846	falling																				
+Supplementary Fig 3b													NODAL					-0.1773	0.0515	falling																				
+Supplementary Fig 3b													BCHE					-0.1279	0.0335	falling																				
+Supplementary Fig 3b													PTTG1					-0.0866	0.0292	falling																				
+Supplementary Fig 3b													ENSG00000291189					-0.0656	0.0193	falling																				
+Supplementary Fig 3b													BTBD17					-0.0655	0.0165	falling																				
+Supplementary Fig 3b													WNT4					-0.0362	0.0115	falling																				
+Supplementary Fig 3b													DMKN					0.1798	0.0625	rising	pseudogene or below 0.07 counts per 10,000																			
+Supplementary Fig 3b													PERP					0.6505	0.5511	rising																				
+Supplementary Fig 3b													PGR					0.7317	0.3978	rising																				
+Supplementary Fig 3b													ZC3H12B					1.3174	1.1326	rising																				
+Supplementary Fig 3b													HERC2P3					3.8396	11.5672	rising	pseudogene or below 0.07 counts per 10,000																			
+Supplementary Fig 5b																						arterial	0.303	0.629	0.574															
+Supplementary Fig 5b																						capillary	-0.454	0.66	0.645															
+Supplementary Fig 5b																						venous	0.351	0.758	0.741															
+Supplementary Fig 4b													PGR									arterial				0.3512														
+Supplementary Fig 4b													PGR									capillary				0.4915														
+Supplementary Fig 4b													PGR									venous				0.5149														
+Supplementary Fig 4a																						arterial					primary series	21.4	18.2											
+Supplementary Fig 4a																						capillary					primary series	34.9	33.9											
+Supplementary Fig 4a																						venous					primary series	21.4	26.9											
+Supplementary Fig 4a																						arterial					multiome cohort	18.7	10.9											
+Supplementary Fig 4a																						capillary					multiome cohort	34.1	31.8											
+Supplementary Fig 4a																						venous					multiome cohort	18.1	26.8											
+Fig 2a							35																							0-0.5	prenatal	7.6741	0.0034	no						
+Fig 2a							11																							0.5-0.75	prenatal	15.6174	0.0099	no						
+Fig 2a							17																							0.75-2	0-1.2	29.95	0.035	no						
+Fig 2a							16																							2-6	1.2-5.2	29.881	0.2407	no						
+Fig 2a							7																							6-12	5.2-11.2	30.5494	0.4075	no						
+Fig 2a							17																							12-20	11.2-19.2	28.4469	0.6265	no						
+Fig 2a							9																							>20	>19.2	25.4084	0.6328	no						
+Fig 2a	fraction of the ABCB1 rise complete by the 0.75-2 band																									0.974								no						
+Fig 2a	fraction of the PGR rise complete by the 0.75-2 band																									0.05								no						
+Fig 2a	PGR fold change across the five postnatal bands, 112 donor series																									18.08								no						
+Fig 2a	PGR fold change across the five postnatal bands, 65 donor series																									16.97								no						
+Fig 2a	PGR mean in the 0.75-2 band, 65 donor series																									0.0372								no						
+Fig 2a																										no value drawn								yes, drawn and not measured	circulating progesterone					
+Fig 2b							53																											no		NR4A1	-0.026			
+Fig 2b							53																											no		CLDN5	-0.234			
+Fig 2b							53																											no		PECAM1	-0.099			
+Fig 2b							53																											no		CDH5	0.052			
+Fig 2b																																		no		CLDN5		0.2753		
+Fig 2b																																		no		PECAM1		0.9609		
+Fig 2b																																		no		CDH5		0.7137		
+Fig 2b																																		the chain is drawn, the four numbers are measured		route			Goddard 2014, 10.1016/j.cell.2013.12.025	
+Supplementary Fig 2a													PGR			16.9668																								0.6795
+Supplementary Fig 2a													PGR-AS1			9.3663																								0.6154

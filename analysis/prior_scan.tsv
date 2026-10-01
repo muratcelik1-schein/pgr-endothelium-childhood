@@ -1,0 +1,140 @@
+study	file	bytes	chars	ec_controls	broad	PGR	PGR_AS1	NR3C3	ENSG_PGR	ENSG_PGRAS1	progester	decoy_PGRMC_RPGR	decision	context	note
+steyn2024	steyn2024/41588_2024_1990_MOESM10_ESM.xlsx	98662	342195	CLDN5,FLT1,VWF	6	0	0	0	0	0	0	0	negative		
+steyn2024	steyn2024/41588_2024_1990_MOESM11_ESM.xlsx	170914963	778499686	CDH5,CLDN5,FLT1,PECAM1,VWF	14	2	1	0	0	0	4	8	HIT	"[progester]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …GNC:24704]</t></si><si><t xml:space=""preserve"">PGRMC2</t></si><si><t xml:space=""preserve"">progesterone receptor membrane component 2 [Source:HGNC Symbol;Acc:HGNC:16089]</t></si><si><t xml:spac… || [progester]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …HGNC:20604]</t></si><si><t xml:space=""preserve"">PIBF1</t></si><si><t xml:space=""preserve"">progesterone immunomodulatory binding factor 1 [Source:HGNC Symbol;Acc:HGNC:23352]</t></si><si><t xml:… || [progester]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …GNC:21152]</t></si><si><t xml:space=""preserve"">PGRMC1</t></si><si><t xml:space=""preserve"">progesterone receptor membrane component 1 [Source:HGNC Symbol;Acc:HGNC:16090]</t></si><si><t xml:spac… || [PGR_AS1]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …1 antisense RNA 2 [Source:HGNC Symbol;Acc:HGNC:51206]</t></si><si><t xml:space=""preserve"">PGR-AS1</t></si><si><t xml:space=""preserve"">PGR antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:5265… || [PGR]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …NC:51206]</t></si><si><t xml:space=""preserve"">PGR-AS1</t></si><si><t xml:space=""preserve"">PGR antisense RNA 1 [Source:HGNC Symbol;Acc:HGNC:52650]</t></si><si><t xml:space=""preserve"">A… || [PGR]@41588_2024_1990_MOESM11_ESM.xlsx:xl/sharedStrings.xml …family 6 member 5 [Source:HGNC Symbol;Acc:HGNC:11051]</t></si><si><t xml:space=""preserve"">PGR</t></si><si><t xml:space=""preserve"">progesteron"	
+steyn2024	steyn2024/41588_2024_1990_MOESM12_ESM.xlsx	88112	261450	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+steyn2024	steyn2024/41588_2024_1990_MOESM13_ESM.pdf	2357713	1506	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+steyn2024	steyn2024/41588_2024_1990_MOESM14_ESM.pdf	19455440	48008	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM15_ESM.pdf	2384692	12674	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM16_ESM.xlsx	1335168	10955779	FLT1,PECAM1,VWF	13	0	0	0	0	0	0	4	negative		
+steyn2024	steyn2024/41588_2024_1990_MOESM17_ESM.xlsx	181284	1008835	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6a_15yr_63x.czi	1203200	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6b_31yr_63x.czi	2269280	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6b_15yr_40x_tilescan.czi	28712672	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6a_31yr_40x_tilescan.czi	14632768	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6b_31yr_40x_tilescan.czi	17275392	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6b_15yr_63x.czi	2262400	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6a_15yr_40x_tilescan.czi	21132832	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM18_ESM.zip::source_data/Extended_data_fig6a_31yr_63x.czi	10637472	0	-	0	0	0	0	0	0	0	0	binary-image-or-matrix		
+steyn2024	steyn2024/41588_2024_1990_MOESM1_ESM.pdf	5369704	18267	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM2_ESM.pdf	2635002	0	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM3_ESM.xlsx	13304	46650	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM4_ESM.xlsx	14756	52469	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM5_ESM.xlsx	131668	518778	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+steyn2024	steyn2024/41588_2024_1990_MOESM6_ESM.xlsx	11215	23093	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+steyn2024	steyn2024/41588_2024_1990_MOESM7_ESM.xlsx	42937	213325	FLT1	3	0	0	0	0	0	0	0	negative		
+steyn2024	steyn2024/41588_2024_1990_MOESM8_ESM.xlsx	53151	250487	FLT1	3	0	0	0	0	0	0	0	negative		
+steyn2024	steyn2024/41588_2024_1990_MOESM9_ESM.xlsx	15426	58060	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM10_ESM.xlsx	17582	70167	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM11_ESM.xlsx	250911	1490811	-	2	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM12_ESM.xlsx	230995	1556950	-	2	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM13_ESM.xlsx	15735	47999	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM14_ESM.xlsx	17113	67253	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM15_ESM.xlsx	102272	677735	-	2	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM16_ESM.xlsx	695620	3530822	-	6	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM17_ESM.xlsx	9355739	38825661	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM18_ESM.xlsx	2422833	14825522	PECAM1	10	0	0	0	0	0	5	7	negative	"[progester]@41588_2025_2083_MOESM18_ESM.xlsx:xl/sharedStrings.xml …ce=""preserve"">postsynaptic density organization </t></si><si><t>GO:0097106</t></si><si><t>progesterone receptor signaling pathway (GO:0050847)</t></si><si><t>NEDD4;TRERF1</t></si><si><t xml:sp… || [progester]@41588_2025_2083_MOESM18_ESM.xlsx:xl/sharedStrings.xml …ling pathway (GO:0050847)</t></si><si><t>NEDD4;TRERF1</t></si><si><t xml:space=""preserve"">progesterone receptor signaling pathway </t></si><si><t>GO:0050847</t></si><si><t>potassium ion transm… || [progester]@41588_2025_2083_MOESM18_ESM.xlsx:xl/sharedStrings.xml …transcription by RNA polymerase III </t></si><si><t>GO:0006359</t></si><si><t>response to progesterone (GO:0032570)</t></si><si><t>ABHD2;TRERF1</t></si><si><t xml:space=""preserve"">response to… || [progester]@41588_2025_2083_MOESM18_ESM.xlsx:xl/sharedStrings.xml …(GO:0032570)</t></si><si><t>ABHD2;TRERF1</t></si><si><t xml:space=""preserve"">response to progesterone </t></si><si><t>GO:0032570</t></si><si><t>long-term synaptic potentiation (GO:0060291)</t… || [progester]@41588_2025_2083_MOESM18_ESM.xlsx:xl/sharedStrings.xml …si><t>HSP90B1</t></si><si><t>Genes with Mutations Associated with Melanoma</t></si><si><t>Progesterone Resistance in Endometriosis</t></si><si><t>Proteins Involved in Myasthenia Gravis</t></si…"	
+clarence2025	clarence2025/41588_2025_2083_MOESM19_ESM.xlsx	35513	174410	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM1_ESM.pdf	9477360	14743	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM2_ESM.pdf	476239	14560	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM3_ESM.pdf	25554877	105375	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM4_ESM.xlsx	2926382	14220211	CDH5,CLDN5,FLT1,PECAM1,VWF	13	0	0	0	0	0	0	2	negative		
+clarence2025	clarence2025/41588_2025_2083_MOESM5_ESM.xlsx	2794152	17678064	PECAM1	3	0	0	0	0	0	7	0	negative	"[progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …NFSF8 Signaling</t></si><si><t>Protein Folding</t></si><si><t>HSPA8;HSPA1A</t></si><si><t>Progesterone Resistance in Endometriosis</t></si><si><t>BCL2L11;CCND1</t></si><si><t>Subepithelial Fib… || [progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …n of membrane invagination </t></si><si><t>GO:1905155</t></si><si><t>DOCK7</t></si><si><t>progesterone receptor signaling pathway (GO:0050847)</t></si><si><t xml:space=""preserve"">progesterone… || [progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …>progesterone receptor signaling pathway (GO:0050847)</t></si><si><t xml:space=""preserve"">progesterone receptor signaling pathway </t></si><si><t>GO:0050847</t></si><si><t>protein localization… || [progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …specification </t></si><si><t>GO:0009948</t></si><si><t>REV3L</t></si><si><t>response to progesterone (GO:0032570)</t></si><si><t xml:space=""preserve"">response to progesterone </t></si><si><t… || [progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …><t>response to progesterone (GO:0032570)</t></si><si><t xml:space=""preserve"">response to progesterone </t></si><si><t>GO:0032570</t></si><si><t>positive regulation of smoothened signaling pat… || [progester]@41588_2025_2083_MOESM5_ESM.xlsx:xl/sharedStrings.xml …erve"">phosphatidylglycerol biosynthetic process </t></si><si><t>GO:0006655</t></si><si><t>progesterone metabolic process "	
+clarence2025	clarence2025/41588_2025_2083_MOESM6_ESM.xlsx	36610306	205035334	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	0	0	0	0	0	5	HIT	[PGR]@41588_2025_2083_MOESM6_ESM.xlsx:xl/sharedStrings.xml …:43824742-43825242</t></si><si><t>chr2:3518550-3519050</t></si><si><t>RPS7</t></si><si><t>PGR</t></si><si><t>chr11:101129171-101129671</t></si><si><t>chr6:168537324-168537824</t></si>…	
+clarence2025	clarence2025/41588_2025_2083_MOESM7_ESM.xlsx	34204	163897	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+clarence2025	clarence2025/41588_2025_2083_MOESM8_ESM.xlsx	894299	4201320	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+clarence2025	clarence2025/41588_2025_2083_MOESM9_ESM.xlsx	63134	398659	FLT1	2	0	0	0	0	0	0	0	negative		
+velmeshev2023	velmeshev2023/ucsc_end_exprMatrix.tsv.gz	15820704	907094043	CDH5,CLDN5,FLT1,PECAM1,VWF	14	2	0	0	0	0	0	10	HIT	[PGR]@ucsc_end_exprMatrix.tsv.gz …0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 PGR|PGR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0… || [PGR]@ucsc_end_exprMatrix.tsv.gz …0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 PGR|PGR 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0…	
+velmeshev2023	velmeshev2023/ucsc_end_meta.tsv	630761	630424	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+herring2022	herring2022/mmc1.xlsx	114296	907656	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+herring2022	herring2022/mmc2.xlsx	190206	1373311	CDH5,CLDN5,FLT1,VWF	11	1	0	0	0	0	0	0	HIT	[PGR]@mmc2.xlsx:xl/sharedStrings.xml …><t>CTSL</t></si><si><t>ECM2</t></si><si><t>PLA2R1</t></si><si><t>ADAMTS15</t></si><si><t>PGR</t></si><si><t>OLFML2A</t></si><si><t>ASS1</t></si><si><t>RP11-639B1.1</t></si><si><t>CLI…	
+herring2022	herring2022/mmc3.xlsx	42903303	186473117	CLDN5,FLT1,VWF	12	0	0	0	0	0	0	4	negative		
+herring2022	herring2022/mmc4.xlsx	331744	2911544	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+herring2022	herring2022/mmc5.xlsx	29575071	141162775	CDH5,CLDN5,VWF	2	0	0	0	1	0	0	38	HIT	[ENSG_PGR]@mmc5.xlsx:xl/sharedStrings.xml …G00000082068</t></si><si><t>ENSG00000082074</t></si><si><t>ENSG00000082126</t></si><si><t>ENSG00000082175</t></si><si><t>ENSG00000082212</t></si><si><t>ENSG00000082269</t></si><si><t>ENSG00000082…	
+herring2022	herring2022/mmc6.xlsx	648603	3674418	FLT1	10	0	0	0	0	0	0	2	negative		
+yang2022	yang2022/41586_2021_4369_MOESM1_ESM.pdf	92067	10175	VWF	1	0	0	0	0	0	0	0	negative		
+yang2022	yang2022/41586_2021_4369_MOESM2_ESM.xlsx	15427	52082	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+yang2022	yang2022/41586_2021_4369_MOESM3_ESM.xlsx	126619	713140	CLDN5,FLT1,PECAM1,VWF	10	0	0	0	0	0	0	1	negative		
+yang2022	yang2022/41586_2021_4369_MOESM4_ESM.xlsx	104072	485648	FLT1,PECAM1	5	0	0	0	0	0	0	0	negative		
+yang2022	yang2022/41586_2021_4369_MOESM5_ESM.xlsx	3490915	18809051	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	0	0	0	0	0	5	HIT	[PGR]@41586_2021_4369_MOESM5_ESM.xlsx:xl/sharedStrings.xml …si><t>PGM5</t></si><si><t>PGP</t></si><si><t>PGPEP1</t></si><si><t>PGPEP1L</t></si><si><t>PGR</t></si><si><t>PGRMC1</t></si><si><t>PGRMC2</t></si><si><t>PGS1</t></si><si><t>PHACTR1</t…	
+yang2022	yang2022/41586_2021_4369_MOESM6_ESM.xlsx	98562	435449	FLT1	2	0	0	0	0	0	0	0	negative		
+yang2022	yang2022/41586_2021_4369_MOESM7_ESM.xlsx	55743	236635	FLT1,PECAM1	0	0	0	0	0	0	0	1	negative		
+yang2022	yang2022/41586_2021_4369_MOESM8_ESM.xlsx	45626	185516	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+yang2022	yang2022/41586_2021_4369_MOESM9_ESM.xlsx	1434907	11930034	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+walchli2024	walchli2024/41586_2024_7493_MOESM1_ESM.pdf	65755863	116674	CDH5,CLDN5,FLT1,PECAM1,VWF	10	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM2_ESM.pdf	7408345	10	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM3_ESM.pdf	1826941	365899	CDH5,CLDN5,VWF	5	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM4_ESM.docx	126207	801578	-	2	0	0	0	0	0	0	0	weak-negative(no EC control)		
+walchli2024	walchli2024/41586_2024_7493_MOESM5_ESM.docx	73782	529745	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S1.xlsx	130537	938699	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S10.xlsx	24235	67236	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S11.xlsx	23533	61713	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S12.xlsx	78631	364391	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S13.xlsx	43561	208211	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S14.xlsx	51771	196487	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S15.xlsx	76089	286300	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S16.xlsx	2006107	42283	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S17.xlsx	43126	253393	CLDN5,FLT1,PECAM1,VWF	1	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S18.xlsx	1525108	5687026	CDH5,CLDN5,FLT1,PECAM1,VWF	12	0	0	0	0	0	0	2	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S19.xlsx	570869	2176680	CDH5,CLDN5,FLT1,PECAM1,VWF	7	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S2.xlsx	132157	938029	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S20.xlsx	41014	149396	CDH5,CLDN5,FLT1,PECAM1	3	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S21.xlsx	43766	289622	PECAM1,VWF	2	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S22.xlsx	11434	19888	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S23.xlsx	24294	110276	-	1	0	0	0	0	0	0	0	weak-negative(no EC control)		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S24.xlsx	16050	45574	CLDN5	1	0	0	0	0	0	0	0	negative		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S25.xlsx	18922092	75524021	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	1	0	0	0	0	5	HIT	[PGR]@Supplementary Table S25.xlsx:xl/sharedStrings.xml …si><t>MTMR2</t></si><si><t>MAML2</t></si><si><t>CCDC82</t></si><si><t>JRKL</t></si><si><t>PGR</t></si><si><t>CEP126</t></si><si><t>YAP1</t></si><si><t>BIRC3</t></si><si><t>BIRC2</t></… || [PGR_AS1]@Supplementary Table S25.xlsx:xl/sharedStrings.xml …D</t></si><si><t>AP000787.1</t></si><si><t>ARHGAP42</t></si><si><t>TMEM133</t></si><si><t>PGR-AS1</t></si><si><t>TRPC6</t></si><si><t>C11orf70</t></si><si><t>AP001527.2</t></si><si><t>AP0…	
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S26.xlsx	29080	114381	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S27.xlsx	11961	25987	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S3.xlsx	14502	44988	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S4.xlsx	15732	63494	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S5.xlsx	53414	53617	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S6.xlsx	4763743	18059319	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	0	0	0	0	0	5	HIT	[PGR]@Supplementary Table S6.xlsx:xl/sharedStrings.xml …i><t>CEP57</t></si><si><t>MTMR2</t></si><si><t>MAML2</t></si><si><t>CCDC82</t></si><si><t>PGR</t></si><si><t>YAP1</t></si><si><t>BIRC3</t></si><si><t>BIRC2</t></si><si><t>TMEM123</t><…	
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S7.xlsx	6039378	24942383	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	1	0	0	0	0	5	HIT	[PGR]@Supplementary Table S7.xlsx:xl/sharedStrings.xml …si><t>MTMR2</t></si><si><t>MAML2</t></si><si><t>CCDC82</t></si><si><t>JRKL</t></si><si><t>PGR</t></si><si><t>CEP126</t></si><si><t>YAP1</t></si><si><t>BIRC3</t></si><si><t>BIRC2</t></… || [PGR_AS1]@Supplementary Table S7.xlsx:xl/sharedStrings.xml …D</t></si><si><t>AP000787.1</t></si><si><t>ARHGAP42</t></si><si><t>TMEM133</t></si><si><t>PGR-AS1</t></si><si><t>TRPC6</t></si><si><t>C11orf70</t></si><si><t>AP001527.2</t></si><si><t>AP0…	
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S8.xlsx	16234999	64157563	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	1	0	0	0	0	5	HIT	[PGR]@Supplementary Table S8.xlsx:xl/sharedStrings.xml …si><t>MTMR2</t></si><si><t>MAML2</t></si><si><t>CCDC82</t></si><si><t>JRKL</t></si><si><t>PGR</t></si><si><t>CEP126</t></si><si><t>YAP1</t></si><si><t>BIRC3</t></si><si><t>BIRC2</t></… || [PGR_AS1]@Supplementary Table S8.xlsx:xl/sharedStrings.xml …D</t></si><si><t>AP000787.1</t></si><si><t>ARHGAP42</t></si><si><t>TMEM133</t></si><si><t>PGR-AS1</t></si><si><t>TRPC6</t></si><si><t>C11orf70</t></si><si><t>AP001527.2</t></si><si><t>AP0…	
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table S9.xlsx	26026226	103121364	CDH5,CLDN5,FLT1,PECAM1,VWF	14	1	1	0	0	0	0	5	HIT	[PGR]@Supplementary Table S9.xlsx:xl/sharedStrings.xml …si><t>MTMR2</t></si><si><t>MAML2</t></si><si><t>CCDC82</t></si><si><t>JRKL</t></si><si><t>PGR</t></si><si><t>CEP126</t></si><si><t>YAP1</t></si><si><t>BIRC3</t></si><si><t>BIRC2</t></… || [PGR_AS1]@Supplementary Table S9.xlsx:xl/sharedStrings.xml …D</t></si><si><t>AP000787.1</t></si><si><t>ARHGAP42</t></si><si><t>TMEM133</t></si><si><t>PGR-AS1</t></si><si><t>TRPC6</t></si><si><t>C11orf70</t></si><si><t>AP001527.2</t></si><si><t>AP0…	
+walchli2024	walchli2024/41586_2024_7493_MOESM6_ESM.zip::Supplementary Table Guide.docx	21833	277748	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig1.Rmd	13240	13240	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig2.Rmd	19432	19432	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig2.nb.html	2542497	2542497	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig3.Rmd	9768	9768	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig3.nb.html	1605133	1605131	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig3_ridgeplot_HMAP.nb.html	857103	857103	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig3_ridgeplot_heatmap.Rmd	25440	25440	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig4.Rmd	26614	26614	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig4.nb.html	2379513	2379513	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig7.Rmd	33839	33839	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/Fig7.nb.html	6940940	6941119	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/LICENSE	1087	1087	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/README.md	552	552	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/S4_metaneighbor_humanvsmouse.Rmd	23392	23390	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/S4_metaneighbor_humanvsmouse.nb.html	1765586	1765584	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/S9_07072026.Rmd	7661	7661	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/maturationmodeltraining.Rmd	31733	31733	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/maturationmodeltraining.nb.html	1183263	1183259	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/metamodule_celltype_expression.r	6623	6623	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/save_celltypematuration_trajectories.r	3448	3448	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/save_coexpdata_webserver.R	3137	3137	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/within_across_celltype_coexp.Rmd	26271	26271	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/within_across_celltype_coexp.nb.html	1915166	1915166	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/python_notebooks/concord_integration.ipynb	14328646	14328938	VWF	2	0	0	0	0	0	0	0	negative		
+devbrainatlas	devbrainatlas/python_notebooks/pseudobulk_humandata_final_24062026.ipynb	6334	6334	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/python_notebooks/metaneighbor/human-mouse-one2oneorthologs.csv	1011829	1011829	CDH5,CLDN5,FLT1,PECAM1,VWF	13	2	0	0	1	0	0	10	HIT(reference list, not a result)	[ENSG_PGR]@human-mouse-one2oneorthologs.csv …024063,Lbh,ortholog_one2one ENSG00000203733,GJE1,ENSMUSG00000019867,Gje1,ortholog_one2one ENSG00000082175,PGR,ENSMUSG00000031870,Pgr,ortholog_one2one ENSG00000240053,LY6G5B,ENSMUSG00000043807,Ly6… || [PGR]@human-mouse-one2oneorthologs.csv …log_one2one ENSG00000203733,GJE1,ENSMUSG00000019867,Gje1,ortholog_one2one ENSG00000082175,PGR,ENSMUSG00000031870,Pgr,ortholog_one2one ENSG00000240053,LY6G5B,ENSMUSG00000043807,Ly6g5b,… || [PGR]@human-mouse-one2oneorthologs.csv …3733,GJE1,ENSMUSG00000019867,Gje1,ortholog_one2one ENSG00000082175,PGR,ENSMUSG00000031870,Pgr,ortholog_one2one ENSG00000240053,LY6G5B,ENSMUSG00000043807,Ly6g5b,ortholog_one2one ENSG00…	
+devbrainatlas	devbrainatlas/python_notebooks/metaneighbor/runmetaneighbor_finalannotations_study-age.ipynb	25635	25631	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/python_notebooks/metaneighbor/runmetaneighbor_mouse_vs_human_finalannotations.ipynb	108127	108095	CLDN5,FLT1	3	0	0	0	0	0	0	2	negative		
+devbrainatlas	devbrainatlas/python_notebooks/tangram/run_tangram_allspatialsamples_v2_20gw.ipynb	14841880	14842436	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+devbrainatlas	devbrainatlas/python_notebooks/tangram/run_tangram_allspatialsamples_v3_14-16gw.ipynb	14476728	14477288	VWF	0	1	0	0	0	0	0	0	false-positive(base64/binary)	[PGR]@run_tangram_allspatialsamples_v3_14-16gw.ipynb …0i9Gk+LFOjKLRUoRJ8FB/ZiDkmBWoDtCXNwVmciSH9h/j9ehzpNyBanBx6eB8tYhzPPf8XSv+wGHfTcWIK5tLa2om/pgR/QESTNIlEixFnajfxr5xkco1A7vn7kI734O8pwh3lQ2EIEGjvJcW/BxVOwiKupWH7bFRJ53HtTfdS+zOZ438/QEdTO…	
+devbrainatlas	devbrainatlas/python_notebooks/tangram/run_tangram_allspatialsamples_v5_over30gw.ipynb	14541513	14542073	VWF	0	1	0	0	0	0	0	0	false-positive(base64/binary)	[PGR]@run_tangram_allspatialsamples_v5_over30gw.ipynb …Gi1oD6qYG+owTZFAolSQl/Kg7xzhU33LLCQ9SOtH8GLg875j6DdAN7fkfBbV0sYMEnpUZvwp52kM6n1HsZNTS+LWH/pGR+xfuEPKZX79ZPAYr0fnCIw6Xj1s/V5Jn763zLWIBo8H60aUdGs6db0+hVOl9a7C01rZCm5fltUFuNrd+/1fgb9QvB1…	
+venkatesan2026	venkatesan2026/media-1.docx	28279259	147716	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+venkatesan2026	venkatesan2026/venkatesan.jats.xml	210902	210583	-	3	0	0	0	0	0	0	0	weak-negative(no EC control)		
+venkatesan2026	venkatesan2026/supptables/Supplementary Table S10.xlsx	396468	1602033	CLDN5,FLT1	10	0	0	0	0	0	0	0	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary Table S7.xlsx	712642	3313534	PECAM1	9	0	0	0	0	0	0	0	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary Table S8.xlsx	1523191	7080486	FLT1	9	0	0	0	0	0	0	1	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary Table S9.xlsx	649256	3631696	PECAM1	10	0	0	0	0	0	0	1	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S11_gene_membership_under14gw_modules.csv	7929619	7929819	CDH5,CLDN5,FLT1,PECAM1,VWF	13	0	0	0	0	0	0	4	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S12_gene_membership_20-25gw_modules.csv	7563452	7563652	CDH5,CLDN5,FLT1,PECAM1,VWF	13	0	0	0	0	0	0	4	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S1_markers.csv	47836	47836	CLDN5,FLT1,VWF	11	0	0	0	0	0	0	0	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S2_metaneighbor_replicability_percelltype.xlsx	12047	29908	-	0	0	0	0	0	0	0	0	no-gene-symbols		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S3_geneimportance.xlsx	200235	1035757	CLDN5	5	0	0	0	0	0	0	0	negative		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S4_tau.xlsx	105490	436597	-	2	0	0	0	0	0	0	0	weak-negative(no EC control)		
+venkatesan2026	venkatesan2026/supptables/Supplementary table S5_allgeneusage.xlsx	1549122	11741901	CDH5,CLDN5,FLT1,PECAM1,VWF	12	1	0	0	0	0	0	5	HIT	[PGR]@Supplementary table S5_allgeneusage.xlsx:xl/sharedStrings.xml …<t>CCDC82</t></si><si><t>JRKL</t></si><si><t>CNTN5</t></si><si><t>ARHGAP42</t></si><si><t>PGR</t></si><si><t>TRPC6</t></si><si><t>ANGPTL5</t></si><si><t>CEP126</t></si><si><t>CFAP300<…	
+venkatesan2026	venkatesan2026/supptables/Supplementary table S6_ASDoverlap.csv	61607	61607	-	0	0	0	0	0	0	0	0	no-gene-symbols		

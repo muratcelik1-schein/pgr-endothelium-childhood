@@ -1,0 +1,92 @@
+block	key	value	note
+meta	Aging_endothelial_label	endothelial cell	
+meta	Aging_endothelial_nuclei_under20	7243	
+meta	HBCC_endothelial_label	endothelial cell	
+meta	HBCC_endothelial_nuclei_under20	7444	
+meta	MSSM_endothelial_label	endothelial cell	
+meta	MSSM_endothelial_nuclei_under20	77	
+meta	RADC_endothelial_label	endothelial cell	
+meta	RADC_endothelial_nuclei_under20	0	
+meta	unique_donors_under20	59	
+meta	donors_present_in_more_than_one_file	57	counted once; the release ships overlapping subsets
+meta	total_endothelial_nuclei	14764	
+meta	donors_retained	59	threshold 10 endothelial nuclei
+bands	<2y	donors=11; nuclei=1318	
+bands	2-11y	donors=12; nuclei=4458	
+bands	12-19y	donors=36; nuclei=8988	
+meta	age_range	0.08 to 19.00	
+gate_identity	PECAM1	median 3.572 counts per 10,000 across donors	PASS
+gate_identity	CLDN5	median 7.908 counts per 10,000 across donors	PASS
+gate_identity	FLT1	median 48.193 counts per 10,000 across donors	PASS
+raw	PGR	expr rho=+0.698 p=0.0000; pct_pos rho=+0.661 p=0.0000	target
+raw	NR3C1	expr rho=-0.085 p=0.5215; pct_pos rho=-0.134 p=0.3125	other_receptor
+raw	NR3C2	expr rho=+0.669 p=0.0000; pct_pos rho=+0.416 p=0.0011	other_receptor
+raw	ESR1	expr rho=+0.205 p=0.1191; pct_pos rho=+0.170 p=0.1977	other_receptor
+raw	AR	expr rho=+0.079 p=0.5514; pct_pos rho=+0.054 p=0.6858	other_receptor
+raw	GPER1	expr rho=+0.276 p=0.0347; pct_pos rho=+0.204 p=0.1215	other_receptor
+raw	ACTB	expr rho=-0.219 p=0.0954; pct_pos rho=-0.139 p=0.2935	housekeeping
+raw	GAPDH	expr rho=+0.013 p=0.9247; pct_pos rho=-0.072 p=0.5861	housekeeping
+raw	RPL13A	expr rho=-0.101 p=0.4446; pct_pos rho=-0.192 p=0.1454	housekeeping
+raw	RPLP0	expr rho=-0.358 p=0.0054; pct_pos rho=-0.386 p=0.0025	housekeeping
+raw	TBP	expr rho=+0.044 p=0.7425; pct_pos rho=-0.029 p=0.8258	housekeeping
+raw	PGK1	expr rho=-0.008 p=0.9539; pct_pos rho=-0.101 p=0.4451	housekeeping
+raw	PECAM1	expr rho=+0.194 p=0.1418; pct_pos rho=+0.010 p=0.9421	identity
+raw	CLDN5	expr rho=-0.199 p=0.1303; pct_pos rho=-0.183 p=0.1661	identity
+raw	FLT1	expr rho=-0.144 p=0.2765; pct_pos rho=-0.140 p=0.2906	identity
+raw	PGR-AS1	expr rho=+0.664 p=0.0000; pct_pos rho=+0.649 p=0.0000	extra
+raw	ZNF385B	expr rho=+0.593 p=0.0000; pct_pos rho=+0.572 p=0.0000	extra
+raw	PAQR5	expr rho=-0.239 p=0.0686; pct_pos rho=-0.249 p=0.0567	extra
+raw	ABCB1	expr rho=+0.065 p=0.6267; pct_pos rho=-0.148 p=0.2623	extra
+depth	median_nucleus_depth	4185.0	
+depth	depth_target_pos_vs_neg	5000 vs 4009	
+depth	depth500_PGR	rho=+0.699; p=0.0000; donors=59; nuclei=14764	TARGET
+depth	depth500_NR3C1	rho=-0.131; p=0.3231	other_receptor
+depth	depth500_NR3C2	rho=+0.634; p=0.0000	other_receptor
+depth	depth500_ESR1	rho=+0.198; p=0.1319	other_receptor
+depth	depth500_AR	rho=+0.121; p=0.3610	other_receptor
+depth	depth500_GPER1	rho=+0.267; p=0.0413	other_receptor
+depth	depth500_ACTB	rho=-0.146; p=0.2688	housekeeping
+depth	depth500_GAPDH	rho=-0.008; p=0.9503	housekeeping
+depth	depth500_RPL13A	rho=-0.033; p=0.8058	housekeeping
+depth	depth500_RPLP0	rho=-0.327; p=0.0114	housekeeping
+depth	depth500_TBP	rho=+0.150; p=0.2580	housekeeping
+depth	depth500_PGK1	rho=-0.039; p=0.7686	housekeeping
+depth	depth500_PECAM1	rho=+0.243; p=0.0638	identity
+depth	depth500_CLDN5	rho=-0.168; p=0.2023	identity
+depth	depth500_FLT1	rho=-0.039; p=0.7718	identity
+depth	depth500_controls_matching_target	0	none
+depth	depth1000_PGR	rho=+0.695; p=0.0000; donors=59; nuclei=14764	TARGET
+depth	depth1000_NR3C1	rho=-0.107; p=0.4220	other_receptor
+depth	depth1000_NR3C2	rho=+0.617; p=0.0000	other_receptor
+depth	depth1000_ESR1	rho=+0.204; p=0.1208	other_receptor
+depth	depth1000_AR	rho=+0.121; p=0.3610	other_receptor
+depth	depth1000_GPER1	rho=+0.267; p=0.0413	other_receptor
+depth	depth1000_ACTB	rho=-0.140; p=0.2904	housekeeping
+depth	depth1000_GAPDH	rho=-0.003; p=0.9809	housekeeping
+depth	depth1000_RPL13A	rho=-0.042; p=0.7545	housekeeping
+depth	depth1000_RPLP0	rho=-0.327; p=0.0114	housekeeping
+depth	depth1000_TBP	rho=+0.149; p=0.2596	housekeeping
+depth	depth1000_PGK1	rho=-0.038; p=0.7735	housekeeping
+depth	depth1000_PECAM1	rho=+0.251; p=0.0547	identity
+depth	depth1000_CLDN5	rho=-0.166; p=0.2084	identity
+depth	depth1000_FLT1	rho=+0.005; p=0.9694	identity
+depth	depth1000_controls_matching_target	0	none
+depth	depth2000_PGR	rho=+0.681; p=0.0000; donors=58; nuclei=13646	TARGET
+depth	depth2000_NR3C1	rho=-0.061; p=0.6484	other_receptor
+depth	depth2000_NR3C2	rho=+0.615; p=0.0000	other_receptor
+depth	depth2000_ESR1	rho=+0.251; p=0.0576	other_receptor
+depth	depth2000_AR	rho=+0.113; p=0.4002	other_receptor
+depth	depth2000_GPER1	rho=+0.284; p=0.0305	other_receptor
+depth	depth2000_ACTB	rho=-0.148; p=0.2667	housekeeping
+depth	depth2000_GAPDH	rho=-0.034; p=0.7984	housekeeping
+depth	depth2000_RPL13A	rho=-0.105; p=0.4349	housekeeping
+depth	depth2000_RPLP0	rho=-0.326; p=0.0126	housekeeping
+depth	depth2000_TBP	rho=+0.111; p=0.4084	housekeeping
+depth	depth2000_PGK1	rho=-0.037; p=0.7815	housekeeping
+depth	depth2000_PECAM1	rho=+0.157; p=0.2378	identity
+depth	depth2000_CLDN5	rho=-0.187; p=0.1607	identity
+depth	depth2000_FLT1	rho=+0.008; p=0.9520	identity
+depth	depth2000_controls_matching_target	0	none
+limits	independence	independent donors, same resource and pipeline	the manuscript already uses this release for its adult results, so this is not an independent pipeline
+limits	young_donor_numbers	the youngest bands are small	see the bands block
+limits	seed	2026	

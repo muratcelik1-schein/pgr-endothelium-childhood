@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+title: "Progesterone receptor expression in human cortical endothelium increases across childhood: analysis code and derived tables"
+message: If you use this software, please cite it using these metadata.
+type: software
+license: MIT
+authors:
+  - family-names: "Çelik"
+    given-names: "Murat Can"
+    orcid: "https://orcid.org/0009-0006-9024-2100"
+    affiliation: "Department of Child and Adolescent Psychiatry, Cerrahpaşa Faculty of Medicine, İstanbul University-Cerrahpaşa"
+  - family-names: "Çiçek"
+    given-names: "Yusuf"
+    orcid: "https://orcid.org/0000-0003-1225-9426"
+    affiliation: "Department of Psychiatry, Cerrahpaşa Faculty of Medicine, İstanbul University-Cerrahpaşa"
+  - family-names: "Karip"
+    given-names: "Betül Zehra"
+    orcid: "https://orcid.org/0009-0002-8712-2440"
+    affiliation: "Department of Histology and Embryology, Hamidiye Faculty of Medicine, University of Health Sciences"
+  - family-names: "Şakiroğlu"
+    given-names: "Mehmet Akif"
+    orcid: "https://orcid.org/0009-0006-3304-1919"
+    affiliation: "Department of Psychiatry, Erenköy Mental and Neurological Diseases Hospital"
+  - family-names: "Velioğlu"
+    given-names: "Halil Aziz"
+    orcid: "https://orcid.org/0000-0002-2306-5937"
+    affiliation: "Department of Physiology, Brain and Cognition Research Center, BEYKOG, İstanbul Medipol University"
+  - family-names: "Kadak"
+    given-names: "Tayyib"
+    orcid: "https://orcid.org/0000-0003-0016-311X"
+    affiliation: "Department of Child and Adolescent Psychiatry, Cerrahpaşa Faculty of Medicine, İstanbul University-Cerrahpaşa"
+keywords:
+  - "progesterone receptor"
+  - "cerebral endothelium"
+  - "blood-brain barrier"
+  - "human brain development"
+  - "single-nucleus transcriptomics"
+  - "childhood"

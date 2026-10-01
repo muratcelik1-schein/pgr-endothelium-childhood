@@ -1,0 +1,13 @@
+quantity	conception_axis	postnatal	note
+birth_on_axis	0.77	0.00	constant offset, from the labelled donors
+n_labelled_donors	13		donors named NY_...
+series_min	0.77	0.00	youngest donor
+series_max	44.77	44.00	oldest donor
+band_edge_0.75	0.75	0.00	birth
+band_edge_2	2	1.23	postnatal equivalent
+band_edge_6	6	5.23	postnatal equivalent
+band_edge_12	12	11.23	postnatal equivalent
+band_edge_20	20	19.23	postnatal equivalent
+full_series_edge_0	0	prenatal	0.77 years before birth, prenatal
+full_series_edge_0.5	0.5	prenatal	0.27 years before birth, prenatal
+gestation_weeks_at_birth	0.77		40.2 weeks

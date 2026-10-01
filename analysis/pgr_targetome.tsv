@@ -1,0 +1,20 @@
+block	key	value	note
+source	workbook	GSM1071297_PR_PR_infected+Prog_peaks.xlsx	
+source	sheets	C2vsC3; C2vsC4; C2vsC6; FinalList_C2vsC3andC4andC6-neg; Bound genes nearest 50kb (3886); C1vsC2_overlap_397; Bound_downreg(431)_214; Bound_upreg(406)_93	
+gene_sets	bound	3996	sheet 'Bound genes nearest 50kb (3886)'
+gene_sets	bound_down	214	sheet 'Bound_downreg(431)_214'
+gene_sets	bound_up	93	sheet 'Bound_upreg(406)_93'
+gene_sets	peaks_passing_all_negative_controls	9906	hg19, MACS, GREAT 50 kb nearest gene
+series	donors	65	manuscript reports 65
+series	nuclei	5388	manuscript reports 5,388
+series	genes_tested	18794	manuscript reports 18,794
+method	statistic	partial Spearman with PGR, age removed, donor level	
+controls	positive_control_genes	PGR-AS1 rho=+0.379; ZNF385B rho=+0.291	genes already reported as co-rising; the statistic should see them
+result	bound_set	genes=3264/3996; median |partial rho|=0.0961; null median=0.0961; p=0.5022; signed median=+0.0594 (null +0.0632)	abundance matched null, 2000 draws
+result	bound_and_downregulated	genes=195/214; median |partial rho|=0.0974; null median=0.0942; p=0.3203; signed median=+0.0660 (null +0.0562)	rests on unreplicated RNA-seq, one sample per condition
+result	bound_and_upregulated	genes=80/93; median |partial rho|=0.1052; null median=0.0980; p=0.3038; signed median=+0.0733 (null +0.0666)	rests on unreplicated RNA-seq, one sample per condition
+controls	shuffled_target_null	observed 0.0961; shuffled median 0.0851; p=0.0896	PGR vector permuted across donors, 200 times
+limits	binding_source	primary human umbilical vein endothelium, receptor introduced by lentivirus	venous endothelium but not brain, and not endogenous receptor
+limits	rna_source	one sample per condition in the accompanying RNA-seq	the up and down subsets are candidate lists, not differential expression results
+limits	assembly	peaks are hg19, genes assigned by GREAT 2.0.1, nearest gene within 50 kb	
+limits	seed	2026	
