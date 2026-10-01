@@ -572,13 +572,16 @@ ax.tick_params(labelsize=F2)
 
 # --- the ligand strip: drawn, not measured, and labelled as such
 STRIP.set_xlim(-0.55, 7.7); STRIP.set_ylim(0, 1.05); STRIP.set_axis_off()
-_sx = np.linspace(0, 6, 400)
-_sy = np.interp(_sx, [0, 1.0, 1.5, 1.9, 2.4, 4.2, 4.9, 5.5, 6.0],
-                     [0.95, 0.95, 0.72, 0.22, 0.12, 0.12, 0.30, 0.72, 0.88])
+# The strip starts at birth: reference 17 (Frederiksen 2024) measured serum from 0.17 months onward and gives no
+# prenatal values. Low through childhood, increasing at puberty, high in adults, as in its Fig. 2 and 5 and text.
+_sx = np.linspace(BIRTH_X, 6, 400)
+_sy = np.interp(_sx, [BIRTH_X, 4.2, 4.9, 5.5, 6.0],
+                     [0.12, 0.12, 0.30, 0.72, 0.88])
+assert _sx[0] >= BIRTH_X, "the strip must not start before birth: reference 17 has no prenatal data"
 STRIP.fill_between(_sx, 0, _sy, facecolor=C["lig"], alpha=0.28, lw=0)
 STRIP.plot(_sx, _sy, color=C["lig"], lw=1.0)
 STRIP.axvline(BIRTH_X, color=C["rule"], lw=0.7, ls=(0, (2.5, 2)))
-STRIP.text(-0.55, 1.22, "Circulating progesterone, schematic (no scale)", fontsize=F2, color=C["mute"],
+STRIP.text(-0.55, 1.22, "Circulating progesterone after birth, schematic (no scale)", fontsize=F2, color=C["mute"],
            ha="left", va="bottom", linespacing=1.2)
 STRIP.text(3.3, 0.34, "low across childhood", fontsize=F2, color=C["lig"], ha="center", va="bottom")
 STRIP.text(6.12, 0.55, "increases at puberty", fontsize=F2, color=C["lig"], ha="left", va="center")

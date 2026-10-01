@@ -1,0 +1,18 @@
+block	key	value	note
+meta	target	PGR	
+meta	region	chr11:101029624-101130524	GRCh38, gene span
+meta	relevant_words	pulse pressure;blood pressure;neuroimaging;brain;white matter;cortical;stroke;cerebr;vascular;arterial stiffness;permeability	declared before the results were seen
+gate	control_region	APOE region = 272 variants	
+gate	verdict	scan works	
+scan	variants_in_span	13	
+scan	associations_found	14	
+attribution	assigned_to_target	0	
+attribution	assigned_elsewhere	14	
+attribution	neighbour_genes	ARHGAP42=14;PGR-AS1=14	
+relevant	rs61890632	chr11:101044982 p=3e-10 traits=neuroimaging measurement closest=ARHGAP42,PGR-AS1	
+relevant	rs618032	chr11:101101257 p=7e-08 traits=pulse pressure measurement closest=ARHGAP42,PGR-AS1	
+all_traits	n_distinct	10	
+all_traits	list	age at menopause(2);body height(2);body shape measurement(1);diabetic kidney disease(1);endometriosis(3);heart failure(1);hypertrophic cardiomyopathy(1);neuroimaging measurement(1);pulse pressure measurement(1);squamous cell lung carcinoma(1)	
+verdict	attribution	no catalogued association inside the PGR span is assigned to PGR by the catalogue	
+verdict	reading	a variant inside the gene's coordinates is not a variant of the gene. The relevant phenotypes at this locus are assigned to the neighbour, so they cannot be attributed to the target without colocalisation against full summary statistics	
+verdict	what_would_settle_it	colocalisation of the artery or brain cortex eQTL for the target with the pulse pressure and neuroimaging signals, using full summary statistics; the neighbour is an established blood pressure gene, so the prior is against the target	

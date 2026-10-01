@@ -1,0 +1,23 @@
+block	key	value	note
+meta	target	PGR = ENSG00000082175.14	
+meta	positive_control	ERAP2 = ENSG00000164308.16	
+meta	dataset	gtex_v8	omitting datasetId returns zero for every gene, silently
+gate	ERAP2::Brain_Cortex	393	
+gate	verdict	scan works	example variant rs27772 p=7.93096e-06
+scan	n_tissues_scanned	54	
+scan	n_tissues_with_eqtl	19	
+scan	tissues_with_eqtl	Artery_Tibial=494;Cells_Cultured_fibroblasts=381;Nerve_Tibial=292;Adipose_Subcutaneous=267;Adrenal_Gland=261;Artery_Aorta=228;Skin_Sun_Exposed_Lower_leg=104;Colon_Sigmoid=59;Testis=58;Thyroid=58;Muscle_Skeletal=57;Heart_Left_Ventricle=46;Lung=40;Brain_Cortex=32;Esophagus_Muscularis=18;Heart_Atrial_Appendage=13;Skin_Not_Sun_Exposed_Suprapubic=6;Small_Intestine_Terminal_Ileum=2;Prostate=1	
+confound	spearman_nEQTL_vs_sampleSize	+0.636	across 54 tissues; read any tissue pattern against this
+confound	sampleSize_median_with_hits	465	
+confound	sampleSize_median_without_hits	170	
+class	vascular_tissues_with_eqtl	2 of 3	Artery_Aorta=228(n=387);Artery_Tibial=494(n=584)
+class	brain_tissues_with_eqtl	1 of 13	Brain_Cortex=32(n=205)
+class	other_tissues_with_eqtl	16 of 38	
+top	Artery_Tibial	rs555653 chr11_101098814_A_G_b38 p=3.39e-56 nes=0.33895	494 eQTLs, n=584
+top	Cells_Cultured_fibroblasts	rs11571153 chr11_101127374_C_T_b38 p=1.36e-28 nes=-0.586214	381 eQTLs, n=483
+top	Nerve_Tibial	rs2187361 chr11_101225835_A_C_b38 p=5.93e-09 nes=-0.155827	292 eQTLs, n=532
+top	Adipose_Subcutaneous	rs560291 chr11_101102181_G_T_b38 p=1.09e-09 nes=-0.161298	267 eQTLs, n=581
+top	Adrenal_Gland	rs637963 chr11_101084097_T_C_b38 p=2.44e-08 nes=-0.41533	261 eQTLs, n=233
+top	Artery_Aorta	rs613120 chr11_101103547_A_G_b38 p=6.17e-10 nes=0.162985	228 eQTLs, n=387
+limit	bulk_tissue	GTEx measures bulk tissue, so a cis-eQTL in brain cortex cannot be attributed to endothelium; this supports a statement about the gene in the tissue and never about a cell type	
+limit	no_colocalisation_yet	presence of an eQTL says the gene's expression is heritable in that tissue; it says nothing about a phenotype until a GWAS signal at the same locus is tested for colocalisation	

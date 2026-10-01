@@ -1,6 +1,6 @@
 # Progesterone receptor expression in human cortical endothelium increases across childhood
 
-Analysis code and derived tables for the article of the same title (Çelik, Çiçek, Karip, Şakiroğlu, Velioğlu, Kadak; *Scientific Reports*, submitted). Released under the MIT licence.
+Analysis code and derived tables for the article of the same title (Çelik, Çiçek, Karip, Şakiroğlu, Velioğlu, Kadak; manuscript submitted for publication). Released under the MIT licence.
 
 The code regenerates every number in the article and its Supplementary Information and draws the two main figures and the five supplementary figures. The primary data are public resources named in the Data availability statement of the article; this repository holds the code that extracts them and the derived tables that the analyses and figures read.
 
@@ -25,7 +25,7 @@ pip install -r ../requirements.txt
 
 ### 1. External inputs
 
-The single-nucleus file of the developmental atlas is `devbrain_jointanalysis_07072026.h5ad`, Zenodo https://doi.org/10.5281/zenodo.21375950, md5 d945ddfed95bf0c9ae8a27bb58afdc78. The bulk expression table is the GTEx v8 gene median TPM release:
+The single-nucleus file of the developmental atlas is `devbrain_jointanalysis_07072026.h5ad`, Zenodo https://doi.org/10.5281/zenodo.21375950, md5 d945ddfed95bf0c9ae8a27bb58afdc78; save it as `data/devbrain.h5ad`. The bulk expression table is the GTEx v8 gene median TPM release:
 
 ```
 curl -o data/gtex_med.gct.gz https://storage.googleapis.com/adult-gtex/bulk-gex/v8/rna-seq/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_median_tpm.gct.gz
@@ -37,7 +37,7 @@ curl -o data/gtex_med.gct.gz https://storage.googleapis.com/adult-gtex/bulk-gex/
 python3 extract_devbrain.py --h5ad data/devbrain.h5ad --out data
 ```
 
-Writes the endothelial pseudobulk matrix, the donor table, the gene symbols and the cell type matrices into `data/`, together with `donor_pgr_counts.csv`, which the later steps read from this directory. The cluster-level tables shipped in the derived tables were built by `extract_atlases.py` (Allen and PsychAD downloads) and the replication tables by `extract_steyn.R` (GSE280569, R and Seurat). Both sets are included in this directory, so steps 4 and 5 run without those downloads.
+Writes the endothelial pseudobulk matrix, the donor table, the gene symbols and the cell type matrices into `data/`, together with `donor_pgr_counts.csv`; a copy of that file is shipped in this directory and read by the later steps. The cluster-level tables in this directory were built by `extract_atlases.py` (Allen and PsychAD downloads) and the replication tables by `extract_steyn.R` (GSE280569, R and Seurat). Both sets are included in this directory, so steps 4 and 5 run without those downloads.
 
 ### 3. Every reported number
 
